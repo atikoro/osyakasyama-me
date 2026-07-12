@@ -1,0 +1,39 @@
+id: 002-pindapata
+episode: 2
+title: "物乞いと托鉢"
+slug: pindapata
+status: audio_generated
+published_at: null
+source:
+  title: "物乞いと托鉢"
+  author: pleasure666
+  published_at: "2024-07-01"
+  url: "https://blog.osyakasyama.me/wiliki/20240701-pindapata"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "物乞いと托鉢の違いから、推し活やエンターテインメントと信仰の関係を考えます。"
+credits: >-
+  原作: pleasure666「物乞いと托鉢」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-002.m4a
+  duration_seconds: 456.400
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 69127
+  size_bytes: 3987800
+  sha256: acd9b78379a2a3d616d4b82290c3332c6f5f74efb3b51f60174c9ea2944cab5d
+  loudness_lufs: -16.90
+  true_peak_dbtp: -3.30
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 社会
+  - 宗教
+  - エンターテインメント

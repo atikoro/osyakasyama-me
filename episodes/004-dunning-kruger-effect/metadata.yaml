@@ -1,0 +1,38 @@
+id: 004-dunning-kruger-effect
+episode: 4
+title: "恋のダニング＝クルーガー効果"
+slug: dunning-kruger-effect
+status: audio_generated
+published_at: null
+source:
+  title: "恋のダニング＝クルーガー効果"
+  author: pleasure666
+  published_at: "2023-07-03"
+  url: "https://blog.osyakasyama.me/wiliki/20230703-dunning-kruger-effect"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "恋愛と相互理解の変化を、ダニング＝クルーガー効果の曲線になぞらえて考えます。"
+credits: >-
+  原作: pleasure666「恋のダニング＝クルーガー効果」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-004.m4a
+  duration_seconds: 480.700
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68718
+  size_bytes: 4175472
+  sha256: 93b7996e84e808a04b42f4e3fd71354753b5d82185a67b74120e9f5ff0eb8e16
+  loudness_lufs: -17.02
+  true_peak_dbtp: -2.92
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - コミュニケーション
+  - 恋愛

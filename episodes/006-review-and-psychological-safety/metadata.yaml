@@ -1,0 +1,38 @@
+id: 006-review-and-psychological-safety
+episode: 6
+title: "レビューと心理的安全性"
+slug: review-and-psychological-safety
+status: audio_generated
+published_at: null
+source:
+  title: "レビューと心理的安全性"
+  author: pleasure666
+  published_at: "2025-10-01"
+  url: "https://blog.osyakasyama.me/wiliki/20251001-review-and-psychological-safety"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "成果物と人格は本当に切り離せるのか。レビューが人と組織へ与える影響を考えます。"
+credits: >-
+  原作: pleasure666「レビューと心理的安全性」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-006.m4a
+  duration_seconds: 307.500
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68494
+  size_bytes: 2662849
+  sha256: 0100d0faa6953d079c1786b7284e60708395f5a629b924cbd866e6a9f3fa8d3c
+  loudness_lufs: -16.93
+  true_peak_dbtp: -1.03
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - プログラミング
+  - 仕事

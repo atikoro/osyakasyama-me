@@ -1,0 +1,61 @@
+2023/12/19文章量：約2500字
+
+misskeyのnoteテーブルの容量を削減する
+
+Tag:プログラミング
+
+当エントリはMisskey Advent Calendar 2023の2枠目の19日目の記事です。
+
+今年に入ってからツイッターのいざこざでMisskey(.io)の認知度がかなり高まりました。
+
+それを気に、もともとmastodonでお一人様鯖を運用していてmisskeyに乗り換えてみた人もそれなりにいるんじゃないかと想像します。
+
+自分もその一人です。(といっても3年以上前の話ですが)
+
+mastodonはわりかしドキュメント類が揃っているしtootctlというCLIも準備されていて、構築と運用にはあまりつまづく事はありませんでした。
+
+しかしmisskeyはドキュメントがあまり整備されておらず(最近はMisskeyHubで頑張ってる？)、破壊的な更新も多く、情報が存在しても古い情報だったりして、mastodonと比べると運用が大変なような気がします。
+
+3年ほどmisskeyを運用していて、一番困ったのが無限に膨れ上がるデータベースの容量です。
+
+リレーを繋いでいるとFediverseから大量のnoteが飛んできます。
+
+特にここ一年でmisskeyが流行ったことにより、今までより大量の投稿がくるようになりました。
+
+グローバルタイムラインが賑やかなのはいいのですが、その分無駄なレコードが爆増することになってしまいました。
+
+趣味でやっているお一人様鯖なのであまりインフラに余裕があるわけじゃありません。
+
+「不要なnoteのレコードを消したいな〜」とは常々思っていたのですが、いろいろ探してみても、それっぽい機能はありませんでした。
+
+ちなみに昨日たまたま見つけたんですが、issueにも自分と同じ悩みを持っている人がいました。
+
+mastodonにはtootctl statuses removeという不要なトゥート(misskeyでいうところのノート)を消すCLIコマンドがあります。
+
+もしかしてGithub上だったらそれっぽいツールがあるかな、と思ってそちらも探してみましたがそれっぽいものはありませんでした。(自分の探し方が下手だっただけで、もしかしたらあるかもしれませんが)
+
+で、ないので結局自分で自作しました。
+
+もし、自分と同じ悩みを持っている方はぜひ使ってみてください。(先程のissueが解決されれば不要になると思いますが)
+
+一応、自分の運用している鯖で半年ほど実際に使っていますが、今のところ特に問題とかは起きてないので多分大丈夫です。(といっても過去のnoteとか見ることはあまりないので絶対とはいい切れませんが)
+
+なお、お一人様鯖以外での使用は想定していませんので、多人数を抱えている鯖での実行はお勧めしません。
+
+多分、クエリが重すぎたりメモリが足りなかったりで死ぬと思います。
+
+それはさておき、Noteを消すスクリプトを動かすと下記のような感じになります。
+
+$ pnpx tsx scripts/delete-remote-notes.ts .../share/pnpm/store/v3/tmp/dlx-3437721 | +5 + .../share/pnpm/store/v3/tmp/dlx-3437721 | Progress: resolved 27, reused 5, downloaded 0, added 5, done Will delete remote notes in 2023-08-11 ~ 2023-09-11. 156626 notes fetched in 0 min 44 sec. 10000 notes deleted in 3 min 36 sec. Still running... 20000 notes deleted in 12 min 27 sec. Still running... 30000 notes deleted in 21 min 6 sec. Still running... 40000 notes deleted in 29 min 34 sec. Still running... 50000 notes deleted in 38 min 8 sec. Still running... 60000 notes deleted in 47 min 4 sec. Still running... 70000 notes deleted in 55 min 42 sec. Still running... 80000 notes deleted in 64 min 12 sec. Still running... 90000 notes deleted in 72 min 58 sec. Still running... 100000 notes deleted in 81 min 46 sec. Still running... 110000 notes deleted in 91 min 31 sec. Still running... 120000 notes deleted in 100 min 38 sec. Still running... 130000 notes deleted in 109 min 35 sec. Still running... 140000 notes deleted in 118 min 37 sec. Still running... 150000 notes deleted in 128 min 12 sec. Still running... Finished. 152007 notes deleted in 130 min 12 sec.
+
+今までは一週間おきぐらいに消していたのですが、上記の通り、かなり量が多く時間がかかるので、今はcronを以下のように登録して毎日消すようにしています。
+
+0 20 * * * cd ~/misskey-admin-tools/; pnpx tsx scripts/delete-remote-drivefiles.ts >> ~/log/delete-drivefiles.log 10 20 * * * cd ~/misskey-admin-tools/; pnpx tsx scripts/delete-remote-notes.ts >> ~/log/delete-notes.log
+
+以上、misskeyのnoteテーブルの容量を削減するスクリプトの紹介でした。
+
+ちなみにMisskeyでいうとv12からv13へのアップデートの顛末を書いた
+
+misskey v13への道
+
+という日記もあるので、よろしければそちらもどうぞ。

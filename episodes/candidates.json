@@ -1,0 +1,102 @@
+[
+  {
+    "episode": 2,
+    "slug": "pindapata",
+    "source_key": "002-pindapata",
+    "title": "物乞いと托鉢",
+    "source_date": "2024-07-01",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20240701-pindapata",
+    "description": "物乞いと托鉢の違いから、推し活やエンターテインメントと信仰の関係を考えます。",
+    "tags": ["社会", "宗教", "エンターテインメント"]
+  },
+  {
+    "episode": 3,
+    "slug": "lacking-in-context",
+    "source_key": "003-lacking-in-context",
+    "title": "オレオレコンテキストおじさん",
+    "source_date": "2024-10-01",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20241001-lacking-in-context",
+    "description": "言語化をサボっているように見える人の背後にある、コンテキスト認識の不足について考えます。",
+    "tags": ["仕事", "コミュニケーション"]
+  },
+  {
+    "episode": 4,
+    "slug": "dunning-kruger-effect",
+    "source_key": "004-dunning-kruger-effect",
+    "title": "恋のダニング＝クルーガー効果",
+    "source_date": "2023-07-03",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20230703-dunning-kruger-effect",
+    "description": "恋愛と相互理解の変化を、ダニング＝クルーガー効果の曲線になぞらえて考えます。",
+    "tags": ["コミュニケーション", "恋愛"]
+  },
+  {
+    "episode": 5,
+    "slug": "about-sns",
+    "source_key": "005-about-sns",
+    "title": "上から来たものを下へ受け流すの社会",
+    "source_date": "2022-12-01",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20221201-about-sns",
+    "description": "SNSを流れる情報と、個人の知識や社会的なコンテキストの関係を考えます。",
+    "tags": ["社会", "SNS"]
+  },
+  {
+    "episode": 6,
+    "slug": "review-and-psychological-safety",
+    "source_key": "006-review-and-psychological-safety",
+    "title": "レビューと心理的安全性",
+    "source_date": "2025-10-01",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20251001-review-and-psychological-safety",
+    "description": "成果物と人格は本当に切り離せるのか。レビューが人と組織へ与える影響を考えます。",
+    "tags": ["プログラミング", "仕事"]
+  },
+  {
+    "episode": 7,
+    "slug": "side-effects-of-opportunity",
+    "source_key": "007-side-effects-of-opportunity",
+    "title": "機会の副作用",
+    "source_date": "2023-04-03",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20230403-side-effects-of-opportunity",
+    "description": "挑戦の機会や試行回数が増えることで生じる、気力、責任、他者負荷などの副作用を考えます。",
+    "tags": ["社会"]
+  },
+  {
+    "episode": 8,
+    "slug": "innovators-dilemma",
+    "source_key": "008-innovators-dilemma",
+    "title": "イノベーションのジレンマ",
+    "source_date": "2024-12-02",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20241202-innovators-dilemma",
+    "description": "組織の秩序と行動力の関係から、イノベーションが生まれにくくなる構造を考えます。",
+    "tags": ["社会", "仕事", "本"]
+  },
+  {
+    "episode": 9,
+    "slug": "cost-by-switching-dividing",
+    "source_key": "009-cost-by-switching-dividing",
+    "title": "コンテキストスイッチとタスク分割コスト",
+    "source_date": "2019-02-06",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20190206-cost-by-switching-dividing",
+    "description": "作業の切り替えや分業によって生まれる、見えにくいオーバーヘッドについて考えます。",
+    "tags": ["仕事", "本"]
+  },
+  {
+    "episode": 10,
+    "slug": "ai-slop",
+    "source_key": "010-ai-slop",
+    "title": "組織とAIスロップ",
+    "source_date": "2026-04-01",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20260401-ai-slop",
+    "description": "AIや人間が連携するときに発生する情報劣化と、組織レベルのAIスロップを考えます。",
+    "tags": ["仕事", "コミュニケーション", "AI"]
+  },
+  {
+    "episode": 11,
+    "slug": "misskey-admin-tools",
+    "source_key": "011-misskey-admin-tools",
+    "title": "misskeyのnoteテーブルの容量を削減する",
+    "source_date": "2023-12-19",
+    "source_url": "https://blog.osyakasyama.me/wiliki/20231219-misskey-admin-tools",
+    "description": "お一人様Misskeyサーバーで増え続けるリモートnoteを削除する運用について紹介します。",
+    "tags": ["プログラミング", "Fediverse"]
+  }
+]

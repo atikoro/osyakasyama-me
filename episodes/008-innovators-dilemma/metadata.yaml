@@ -1,0 +1,39 @@
+id: 008-innovators-dilemma
+episode: 8
+title: "イノベーションのジレンマ"
+slug: innovators-dilemma
+status: audio_generated
+published_at: null
+source:
+  title: "イノベーションのジレンマ"
+  author: pleasure666
+  published_at: "2024-12-02"
+  url: "https://blog.osyakasyama.me/wiliki/20241202-innovators-dilemma"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "組織の秩序と行動力の関係から、イノベーションが生まれにくくなる構造を考えます。"
+credits: >-
+  原作: pleasure666「イノベーションのジレンマ」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-008.m4a
+  duration_seconds: 681.200
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68732
+  size_bytes: 5917766
+  sha256: 351ad9846684812ceb5577100d4581a71be189aff031bcbf508391c3358ca520
+  loudness_lufs: -16.82
+  true_peak_dbtp: -3.64
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 社会
+  - 仕事
+  - 本

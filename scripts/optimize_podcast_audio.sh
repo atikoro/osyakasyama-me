@@ -25,7 +25,7 @@ mkdir -p "$(dirname "$output")"
 ffmpeg -hide_banner -loglevel error -y \
   -i "$input" \
   -map_metadata -1 \
-  -af "loudnorm=I=-16:TP=-3:LRA=11" \
+  -af "loudnorm=I=-11:TP=-1:LRA=11,alimiter=limit=0.45:attack=5:release=50:level=false" \
   -ar 24000 \
   -ac 1 \
   -c:a aac \

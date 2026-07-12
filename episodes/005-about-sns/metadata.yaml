@@ -1,0 +1,38 @@
+id: 005-about-sns
+episode: 5
+title: "上から来たものを下へ受け流すの社会"
+slug: about-sns
+status: audio_generated
+published_at: null
+source:
+  title: "上から来たものを下へ受け流すの社会"
+  author: pleasure666
+  published_at: "2022-12-01"
+  url: "https://blog.osyakasyama.me/wiliki/20221201-about-sns"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "SNSを流れる情報と、個人の知識や社会的なコンテキストの関係を考えます。"
+credits: >-
+  原作: pleasure666「上から来たものを下へ受け流すの社会」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-005.m4a
+  duration_seconds: 542.900
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68874
+  size_bytes: 4726177
+  sha256: a11b132e3b3c7a21fb1ff1c2269c8a05ad22d06e007137003188ce66cc69fbb7
+  loudness_lufs: -16.89
+  true_peak_dbtp: -4.07
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 社会
+  - SNS

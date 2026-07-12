@@ -1,0 +1,39 @@
+id: 010-ai-slop
+episode: 10
+title: "組織とAIスロップ"
+slug: ai-slop
+status: audio_generated
+published_at: null
+source:
+  title: "組織とAIスロップ"
+  author: pleasure666
+  published_at: "2026-04-01"
+  url: "https://blog.osyakasyama.me/wiliki/20260401-ai-slop"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "AIや人間が連携するときに発生する情報劣化と、組織レベルのAIスロップを考えます。"
+credits: >-
+  原作: pleasure666「組織とAIスロップ」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-010.m4a
+  duration_seconds: 444.300
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 69185
+  size_bytes: 3885300
+  sha256: 458081c7636dc5a769a93e23bbacbad038abac594186818ceded79bb28fa92d7
+  loudness_lufs: -16.84
+  true_peak_dbtp: -4.51
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 仕事
+  - コミュニケーション
+  - AI

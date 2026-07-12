@@ -1,0 +1,38 @@
+id: 009-cost-by-switching-dividing
+episode: 9
+title: "コンテキストスイッチとタスク分割コスト"
+slug: cost-by-switching-dividing
+status: audio_generated
+published_at: null
+source:
+  title: "コンテキストスイッチとタスク分割コスト"
+  author: pleasure666
+  published_at: "2019-02-06"
+  url: "https://blog.osyakasyama.me/wiliki/20190206-cost-by-switching-dividing"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "作業の切り替えや分業によって生まれる、見えにくいオーバーヘッドについて考えます。"
+credits: >-
+  原作: pleasure666「コンテキストスイッチとタスク分割コスト」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-009.m4a
+  duration_seconds: 270.100
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 69067
+  size_bytes: 2358451
+  sha256: 69b6e1ae1f7780bfaec09666b3650c8fef341b84917415d3a2bbf5de4bbb33f5
+  loudness_lufs: -16.91
+  true_peak_dbtp: -4.69
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 仕事
+  - 本

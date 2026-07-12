@@ -1,4 +1,4 @@
-# GitHub Pagesホスティング検討
+# GitHub Pagesホスティング運用
 
 ## 結論
 
@@ -45,7 +45,7 @@ GitHub Pagesの月間ソフト帯域上限は100 GB。
 - 音声をGitへ追加するたび、過去バージョンが履歴に残る。公開後の音声ファイルを同じ名前で繰り返し更新しない。
 - 音声ファイルのGUIDとURLは公開後に変更しない。
 - 大規模化した場合は、音声のみCloudflare R2などへ移行する。
-- GitHub Pagesを有効化するまでは外部公開されない。
+- GitHub PagesはGitHub Actionsを公開元として有効化済み。
 
 ## 推奨構成
 
@@ -61,8 +61,8 @@ GitHub Pages公開用artifact
 └── episodes/*.m4a
 ```
 
-## 公開前の残作業
+## 公開時の確認
 
-1. GitHubリポジトリのPages設定で公開元をGitHub Actionsにする。
-2. デプロイワークフローを実行する。
-3. 公開後にHEAD、Range、Content-Typeを検証する。
+1. デプロイワークフローが成功したことを確認する。
+2. 公開後にHEAD、Range、Content-Typeを検証する。
+3. RSS内のGUIDと音声URLが意図せず変わっていないことを確認する。

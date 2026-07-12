@@ -3,13 +3,13 @@
   <channel>
     <title>Something like podcast</title>
     <link>https://blog.osyakasyama.me/wiliki/</link>
-    <description>Something like blogの記事を、音声向けに再構成して届けるPodcast。</description>
+    <description>Something like blogの記事を、できるだけ原文のまま朗読して届けるPodcast。</description>
     <language>ja</language>
-    <copyright>CC BY 4.0 pleasure666</copyright>
-    <lastBuildDate>Sun, 12 Jul 2026 15:47:06 +0900</lastBuildDate>
+    <copyright>CC BY-NC 4.0 pleasure666</copyright>
+    <lastBuildDate>Mon, 13 Jul 2026 02:07:02 +0900</lastBuildDate>
     <atom:link href='https://atikoro.github.io/osyakasyama-me/feed.xml' rel='self' type='application/rss+xml'/>
     <itunes:author>pleasure666</itunes:author>
-    <itunes:summary>Something like blogの記事を、音声向けに再構成して届けるPodcast。</itunes:summary>
+    <itunes:summary>Something like blogの記事を、できるだけ原文のまま朗読して届けるPodcast。</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
     <itunes:image href='https://atikoro.github.io/osyakasyama-me/cover.jpg'/>
@@ -22,16 +22,22 @@
       <description>気持ちは自分で持つものなのか、それとも環境によって持たされるものなのか。 野球の抑え投手を例に、感情と環境の関係について考えます。</description>
       <content:encoded>
         気持ちは自分で持つものなのか、それとも環境によって持たされるものなのか。 野球の抑え投手を例に、感情と環境の関係について考えます。 原文:
-        https://blog.osyakasyama.me/wiliki/20250701-state-of-mind
+        https://blog.osyakasyama.me/wiliki/20250701-state-of-mind 関連記事:
+        個性は環境ガチャの結果: https://blog.osyakasyama.me/wiliki/20180817-personality /
+        可能性の可能性:
+        https://blog.osyakasyama.me/wiliki/20230501-possibility-of-possibility
+        原作: pleasure666「気持ちの持たされよう」。CC BY-NC 4.0。
+        画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。 ライセンス:
+        https://creativecommons.org/licenses/by-nc/4.0/
       </content:encoded>
       <pubDate>Sun, 12 Jul 2026 15:19:00 +0900</pubDate>
       <guid isPermaLink='false'>osyakasyama-me:podcast:001-state-of-mind</guid>
-      <enclosure url='https://atikoro.github.io/osyakasyama-me/episodes/episode-001.m4a' length='2452205' type='audio/mp4'/>
+      <enclosure url='https://atikoro.github.io/osyakasyama-me/episodes/episode-001.m4a' length='3843357' type='audio/mp4'/>
       <itunes:author>pleasure666</itunes:author>
       <itunes:episode>1</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:explicit>false</itunes:explicit>
-      <itunes:duration>284</itunes:duration>
+      <itunes:duration>442</itunes:duration>
     </item>
   </channel>
 </rss>

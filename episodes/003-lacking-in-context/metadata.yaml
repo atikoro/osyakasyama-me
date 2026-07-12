@@ -1,0 +1,38 @@
+id: 003-lacking-in-context
+episode: 3
+title: "オレオレコンテキストおじさん"
+slug: lacking-in-context
+status: audio_generated
+published_at: null
+source:
+  title: "オレオレコンテキストおじさん"
+  author: pleasure666
+  published_at: "2024-10-01"
+  url: "https://blog.osyakasyama.me/wiliki/20241001-lacking-in-context"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "言語化をサボっているように見える人の背後にある、コンテキスト認識の不足について考えます。"
+credits: >-
+  原作: pleasure666「オレオレコンテキストおじさん」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-003.m4a
+  duration_seconds: 476.000
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68974
+  size_bytes: 4149875
+  sha256: a8312e05e19ae38d4b06c3b081da9776bfecd8f10a76a4d7f760c85db8ba89c8
+  loudness_lufs: -16.94
+  true_peak_dbtp: -1.76
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 仕事
+  - コミュニケーション

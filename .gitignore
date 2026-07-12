@@ -11,3 +11,7 @@ episodes/*/audio/*
 
 # Generated GitHub Pages site
 _site/
+
+# Python cache
+__pycache__/
+*.pyc

@@ -2,35 +2,35 @@ id: 001-state-of-mind
 episode: 1
 title: "気持ちの持たされよう"
 slug: state-of-mind
-status: audio_approved
+status: published
 published_at: "2026-07-12T15:19:00+09:00"
 source:
   title: "気持ちの持たされよう"
   author: pleasure666
   published_at: "2025-07-01"
   url: "https://blog.osyakasyama.me/wiliki/20250701-state-of-mind"
-  license: "CC BY 4.0"
-  license_url: "https://creativecommons.org/licenses/by/4.0/"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
 description: >-
   気持ちは自分で持つものなのか、それとも環境によって持たされるものなのか。
   野球の抑え投手を例に、感情と環境の関係について考えます。
 credits: >-
-  原作: pleasure666「気持ちの持たされよう」。CC BY 4.0。
-  Podcast向けに表現と構成を一部変更しています。
+  原作: pleasure666「気持ちの持たされよう」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
 audio:
   engine: openai
   model: tts-1-hd
   voice: coral
   file: audio/episode-001.m4a
-  duration_seconds: 284.0
+  duration_seconds: 441.600
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68290
-  size_bytes: 2452205
+  bitrate_bps: 68853
+  size_bytes: 3843357
+  sha256: 4dfa7d074db73828c6afb8541509128872151dfe8543c1cf9fb701b1b7d9a263
+  loudness_lufs: -17.00
+  true_peak_dbtp: -1.63
   mime_type: audio/mp4
-  sha256: 66ce6ba47763ec7d59851f3ca94d1d783e6358788df80b0890fd480b2c23e22e
-  loudness_lufs: -16.82
-  true_peak_dbtp: -1.75
   review:
     status: approved
     changes_required: false

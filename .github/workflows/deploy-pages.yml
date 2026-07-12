@@ -23,6 +23,9 @@ jobs:
       - name: Generate podcast RSS
         run: ruby scripts/generate_podcast_feed.rb
 
+      - name: Generate podcast index
+        run: ruby scripts/generate_podcast_index.rb
+
       - name: Build static site
         run: scripts/build_pages_site.sh
 

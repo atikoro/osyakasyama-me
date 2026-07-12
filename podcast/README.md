@@ -18,12 +18,13 @@ podcast/
 episodes/001-state-of-mind/audio/episode-001.m4a
 ```
 
-音声はサイズが大きいためGit管理しない。公開時にサーバーへ別途配置する。
+配信用M4AはGitで管理し、GitHub Actionsが他の公開ファイルとともにPages artifactへ格納する。TTSが生成した元MP3はGitで管理しない。
 
 ## RSS生成
 
 ```sh
 scripts/generate_podcast_feed.rb
+scripts/generate_podcast_index.rb
 ```
 
 生成元:
@@ -32,7 +33,8 @@ scripts/generate_podcast_feed.rb
 - エピソード情報: `episodes/*/metadata.yaml`
 - 音声ファイル: 各エピソードの`audio.file`
 
-`status: audio_approved`のエピソードだけがRSSへ追加される。
+`status: audio_approved`または`status: published`のエピソードだけがRSSへ追加される。
+番組ページも同じ条件で生成され、`scripts/build_pages_site.sh`が全エピソードのM4Aを公開用artifactへコピーする。
 
 ## サーバー要件
 

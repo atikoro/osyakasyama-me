@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require "fileutils"
+require "json"
 require "rexml/document"
 require "time"
 require "yaml"
@@ -8,6 +9,7 @@ require "yaml"
 ROOT = File.expand_path("..", __dir__)
 CONFIG_PATH = File.join(ROOT, "podcast", "feed-config.yaml")
 OUTPUT_PATH = File.join(ROOT, "podcast", "feed.xml")
+RELATED_ENTRIES_PATH = File.join(ROOT, "episodes", "related_entries.json")
 
 def load_yaml(path)
   YAML.safe_load(File.read(path), aliases: false)
@@ -20,12 +22,13 @@ def require_value(hash, key, source)
 end
 
 config = load_yaml(CONFIG_PATH)
+related_entries = File.file?(RELATED_ENTRIES_PATH) ? JSON.parse(File.read(RELATED_ENTRIES_PATH)) : {}
 episode_paths = Dir.glob(File.join(ROOT, "episodes", "*", "metadata.yaml")).sort
 abort "No episode metadata found" if episode_paths.empty?
 
 episodes = episode_paths.each_with_object([]) do |path, approved|
   metadata = load_yaml(path)
-  next unless metadata["status"] == "audio_approved"
+  next unless ["audio_approved", "published"].include?(metadata["status"])
 
   audio = require_value(metadata, "audio", path)
   relative_audio_path = require_value(audio, "file", path)
@@ -85,7 +88,15 @@ episodes.sort_by { |episode| Time.parse(episode["published_at"]) }.reverse_each 
   item.add_element("title").text = require_value(episode, "title", episode["metadata_path"])
   item.add_element("link").text = require_value(source, "url", episode["metadata_path"])
   item.add_element("description").text = require_value(episode, "description", episode["metadata_path"])
-  item.add_element("content:encoded").text = "#{episode['description']} 原文: #{source['url']}"
+  related = related_entries.fetch(episode["episode"].to_s.rjust(3, "0"), {})
+  related_text = related.fetch("entries", []).map { |title, url| "#{title}: #{url}" }.join(" / ")
+  item.add_element("content:encoded").text = [
+    episode["description"],
+    "原文: #{source['url']}",
+    related_text.empty? ? nil : "関連記事: #{related_text}",
+    episode["credits"],
+    "ライセンス: #{source['license_url']}",
+  ].compact.join(" ")
   item.add_element("pubDate").text = published_at.rfc2822
   item.add_element("guid", { "isPermaLink" => "false" }).text = "osyakasyama-me:podcast:#{episode['id']}"
   item.add_element("enclosure", {

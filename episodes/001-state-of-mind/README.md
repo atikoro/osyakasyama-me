@@ -6,12 +6,11 @@
 - [x] 音声向け原稿の初稿作成
 - [x] エピソード情報の初稿作成
 - [x] 発音確認リストの作成
-- [ ] 原文との照合
+- [x] 原文との照合
 - [x] 原稿レビュー
 - [x] AI音声の生成
-- [ ] 声質比較用サンプルの生成
 - [x] 試聴と修正
-- [x] MP3書き出し
+- [x] 配信用M4A書き出し
 - [x] RSSへの登録
 
 ## 制作方針
@@ -38,36 +37,9 @@
 - `pronunciations.md`: 発音確認リスト
 - `audio/`: 試作音声の保存先
 
-## 音声エンジンの初期検証
+## AI音声生成
 
-外部APIの認証情報がない状態でも検証できるよう、macOSの日本語合成音声を比較用ベースラインとして使用する。
-
-比較対象:
-
-- Kyoko: 標準的な日本語女性音声
-- Reed（日本語）: 日本語男性音声
-
-生成コマンド:
-
-```sh
-scripts/generate_macos_tts.sh \
-  episodes/001-state-of-mind/voice-sample.txt \
-  episodes/001-state-of-mind/audio/voice-sample-kyoko.aiff \
-  Kyoko \
-  180
-```
-
-声質を確定した後、同じ方法または外部AI音声APIを使って本編を生成する。
-
-### 現在の制約
-
-実行環境では`/usr/bin/say`が音声コンテナのみを作り、音声データを出力しなかったため、ローカル音声による比較は未完了。外部AI音声APIの認証情報も現在は未設定である。
-
-次は、利用する外部AI音声サービスを決めて認証情報を設定するか、音声生成が可能なローカルTTS環境を明示的に導入して実行する。
-
-### 外部AI音声の試作設定
-
-初回試作ではOpenAI Audio APIを使用し、品質重視の`tts-1-hd`と`coral`音声を初期値とする。
+OpenAI Audio APIの`tts-1-hd`と`coral`音声を使用する。
 
 ```sh
 python3 scripts/extract_narration.py \
@@ -81,7 +53,7 @@ scripts/generate_openai_tts.sh \
 
 API呼び出しには`OPENAI_API_KEY`が必要。キーはリポジトリへ保存しない。
 
-## 生成結果
+## 元音声の生成結果
 
 - ファイル: `audio/episode-001-coral.mp3`
 - 音声: OpenAI `tts-1-hd` / `coral`
@@ -113,4 +85,5 @@ Apple Podcastsが24 kHzモノラルに推奨する40〜80 kbpsの範囲に収ま
 - 判定: 承認
 - 修正: 不要
 - 確認項目: 読み間違い、不自然な間、話速、全体的な聞きやすさ
-- 次工程: カバー画像、Podcast RSS、音声ファイルの公開先を準備する
+- 公開状態: GitHub Pagesで公開済み
+- 公開URL: https://atikoro.github.io/osyakasyama-me/episodes/episode-001.m4a

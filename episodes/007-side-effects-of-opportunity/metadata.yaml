@@ -1,0 +1,37 @@
+id: 007-side-effects-of-opportunity
+episode: 7
+title: "機会の副作用"
+slug: side-effects-of-opportunity
+status: audio_generated
+published_at: null
+source:
+  title: "機会の副作用"
+  author: pleasure666
+  published_at: "2023-04-03"
+  url: "https://blog.osyakasyama.me/wiliki/20230403-side-effects-of-opportunity"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "挑戦の機会や試行回数が増えることで生じる、気力、責任、他者負荷などの副作用を考えます。"
+credits: >-
+  原作: pleasure666「機会の副作用」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-007.m4a
+  duration_seconds: 1156.000
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 68720
+  size_bytes: 10039914
+  sha256: e94f4951aba4d1f3672076acc3ee6cf52bb56c858db89b1504fdeb0445baf754
+  loudness_lufs: -16.92
+  true_peak_dbtp: -2.62
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - 社会

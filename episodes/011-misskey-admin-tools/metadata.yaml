@@ -1,0 +1,38 @@
+id: 011-misskey-admin-tools
+episode: 11
+title: "misskeyのnoteテーブルの容量を削減する"
+slug: misskey-admin-tools
+status: audio_generated
+published_at: null
+source:
+  title: "misskeyのnoteテーブルの容量を削減する"
+  author: pleasure666
+  published_at: "2023-12-19"
+  url: "https://blog.osyakasyama.me/wiliki/20231219-misskey-admin-tools"
+  license: "CC BY-NC 4.0"
+  license_url: "https://creativecommons.org/licenses/by-nc/4.0/"
+description: "お一人様Misskeyサーバーで増え続けるリモートnoteを削除する運用について紹介します。"
+credits: >-
+  原作: pleasure666「misskeyのnoteテーブルの容量を削減する」。CC BY-NC 4.0。
+  画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: audio/episode-011.m4a
+  duration_seconds: 270.300
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 69124
+  size_bytes: 2362124
+  sha256: 6a48e08c90229637ddf2a46ee9991ffbfbee7673fa640f9fbe894779d7cf4462
+  loudness_lufs: -16.74
+  true_peak_dbtp: -4.75
+  mime_type: audio/mp4
+  review:
+    status: pending
+    changes_required: null
+explicit: false
+tags:
+  - プログラミング
+  - Fediverse
