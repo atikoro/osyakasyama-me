@@ -2,8 +2,8 @@ id: 001-state-of-mind
 episode: 1
 title: "気持ちの持たされよう"
 slug: state-of-mind
-status: draft
-published_at: null
+status: audio_approved
+published_at: "2026-07-12T15:19:00+09:00"
 source:
   title: "気持ちの持たされよう"
   author: pleasure666
@@ -21,8 +21,15 @@ audio:
   engine: openai
   model: tts-1-hd
   voice: coral
-  file: null
-  duration_seconds: null
+  file: audio/episode-001-coral.mp3
+  duration_seconds: 283.992
+  sample_rate_hz: 24000
+  channels: 1
+  bitrate_bps: 160000
+  sha256: 34ffcbfe5320bb11c3760affc044dca1db15a6a326299e09e90a5e887db6db57
+  review:
+    status: approved
+    changes_required: false
   mime_type: audio/mpeg
 explicit: false
 tags:

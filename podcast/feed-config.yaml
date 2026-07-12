@@ -1,0 +1,12 @@
+title: "Something like podcast"
+description: "Something like blogの記事を、音声向けに再構成して届けるPodcast。"
+language: ja
+author: pleasure666
+category: "Society & Culture"
+subcategory: Philosophy
+explicit: false
+site_url: "https://blog.osyakasyama.me/wiliki/"
+feed_url: "https://blog.osyakasyama.me/podcast/feed.xml"
+cover_url: "https://blog.osyakasyama.me/podcast/cover.jpg"
+audio_base_url: "https://blog.osyakasyama.me/podcast/episodes"
+copyright: "CC BY 4.0 pleasure666"

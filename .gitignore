@@ -1,3 +1,6 @@
 # Generated podcast audio
 episodes/*/audio/*
 !episodes/*/audio/.gitkeep
+
+# Local credentials
+.envrc
