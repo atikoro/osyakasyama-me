@@ -1,0 +1,29 @@
+id: 001-state-of-mind
+episode: 1
+title: "気持ちの持たされよう"
+slug: state-of-mind
+status: draft
+published_at: null
+source:
+  title: "気持ちの持たされよう"
+  author: pleasure666
+  published_at: "2025-07-01"
+  url: "https://blog.osyakasyama.me/wiliki/20250701-state-of-mind"
+  license: "CC BY 4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
+description: >-
+  気持ちは自分で持つものなのか、それとも環境によって持たされるものなのか。
+  野球の抑え投手を例に、感情と環境の関係について考えます。
+credits: >-
+  原作: pleasure666「気持ちの持たされよう」。CC BY 4.0。
+  Podcast向けに表現と構成を一部変更しています。
+audio:
+  engine: openai
+  model: tts-1-hd
+  voice: coral
+  file: null
+  duration_seconds: null
+  mime_type: audio/mpeg
+explicit: false
+tags:
+  - 哲学

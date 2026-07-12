@@ -1,0 +1,3 @@
+# Generated podcast audio
+episodes/*/audio/*
+!episodes/*/audio/.gitkeep
