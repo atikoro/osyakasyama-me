@@ -6,7 +6,7 @@ category: "Society & Culture"
 subcategory: Philosophy
 explicit: false
 site_url: "https://blog.osyakasyama.me/wiliki/"
-feed_url: "https://blog.osyakasyama.me/podcast/feed.xml"
-cover_url: "https://blog.osyakasyama.me/podcast/cover.jpg"
-audio_base_url: "https://blog.osyakasyama.me/podcast/episodes"
+feed_url: "https://atikoro.github.io/osyakasyama-me/feed.xml"
+cover_url: "https://atikoro.github.io/osyakasyama-me/cover.jpg"
+audio_base_url: "https://atikoro.github.io/osyakasyama-me/episodes"
 copyright: "CC BY 4.0 pleasure666"

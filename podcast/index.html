@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Something like podcast</title>
+  <meta name="description" content="Something like blogの記事を、音声向けに再構成して届けるPodcast。">
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    body { margin: 0; background: #07101f; color: #f3ead9; }
+    main { width: min(42rem, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0; }
+    img { display: block; width: min(100%, 28rem); margin: 0 auto 2rem; border-radius: 1rem; }
+    h1 { font-family: Georgia, serif; font-size: clamp(2rem, 8vw, 4rem); line-height: 1; }
+    article { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #4e5360; }
+    audio { width: 100%; margin: 1rem 0; }
+    a { color: #ff6841; }
+    .meta { color: #b7b8bc; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="cover.jpg" alt="Something like podcast カバー">
+    <h1>Something like podcast</h1>
+    <p>Something like blogの記事を、音声向けに再構成して届けるPodcast。</p>
+    <p><a href="feed.xml">Podcast RSSを購読</a></p>
+
+    <article>
+      <p class="meta">Episode 1</p>
+      <h2>気持ちの持たされよう</h2>
+      <audio controls preload="metadata" src="episodes/episode-001.m4a"></audio>
+      <p>気持ちは自分で持つものなのか、それとも環境によって持たされるものなのか。野球の抑え投手を例に、感情と環境の関係について考えます。</p>
+      <p><a href="https://blog.osyakasyama.me/wiliki/20250701-state-of-mind">原文を読む</a></p>
+    </article>
+  </main>
+</body>
+</html>

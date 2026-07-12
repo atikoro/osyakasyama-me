@@ -21,16 +21,19 @@ audio:
   engine: openai
   model: tts-1-hd
   voice: coral
-  file: audio/episode-001-coral.mp3
-  duration_seconds: 283.992
+  file: audio/episode-001.m4a
+  duration_seconds: 284.0
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 160000
-  sha256: 34ffcbfe5320bb11c3760affc044dca1db15a6a326299e09e90a5e887db6db57
+  bitrate_bps: 68290
+  size_bytes: 2452205
+  mime_type: audio/mp4
+  sha256: 66ce6ba47763ec7d59851f3ca94d1d783e6358788df80b0890fd480b2c23e22e
+  loudness_lufs: -16.82
+  true_peak_dbtp: -1.75
   review:
     status: approved
     changes_required: false
-  mime_type: audio/mpeg
 explicit: false
 tags:
   - 哲学

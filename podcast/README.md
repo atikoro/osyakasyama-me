@@ -2,20 +2,20 @@
 
 ## 公開ファイル
 
-以下を`https://blog.osyakasyama.me/podcast/`配下へ配置する。
+以下を`https://atikoro.github.io/osyakasyama-me/`配下へ配置する。
 
 ```text
 podcast/
 ├── cover.jpg
 ├── feed.xml
 └── episodes/
-    └── episode-001-coral.mp3
+    └── episode-001.m4a
 ```
 
 リポジトリ内の音声ファイルは次にある。
 
 ```text
-episodes/001-state-of-mind/audio/episode-001-coral.mp3
+episodes/001-state-of-mind/audio/episode-001.m4a
 ```
 
 音声はサイズが大きいためGit管理しない。公開時にサーバーへ別途配置する。
@@ -42,14 +42,15 @@ scripts/generate_podcast_feed.rb
 - 音声ファイルに対するRangeリクエストへ応答する。
 - カバー画像のLast-Modifiedヘッダーを返す。
 - RSSのContent-Typeを`application/rss+xml`または互換形式にする。
-- MP3のContent-Typeを`audio/mpeg`にする。
+- M4AのContent-Typeを`audio/mp4`または`audio/x-m4a`にする。
 
 ## 公開後の確認URL
 
-- RSS: https://blog.osyakasyama.me/podcast/feed.xml
-- カバー: https://blog.osyakasyama.me/podcast/cover.jpg
-- 第1話: https://blog.osyakasyama.me/podcast/episodes/episode-001-coral.mp3
+- 番組ページ: https://atikoro.github.io/osyakasyama-me/
+- RSS: https://atikoro.github.io/osyakasyama-me/feed.xml
+- カバー: https://atikoro.github.io/osyakasyama-me/cover.jpg
+- 第1話: https://atikoro.github.io/osyakasyama-me/episodes/episode-001.m4a
 
 ## 配信サービスへの登録
 
-サーバー上の3ファイルを確認した後、RSS URLをApple Podcasts ConnectとSpotify for Creatorsへ登録する。
+GitHub Pages上の各ファイルを確認した後、RSS URLをApple Podcasts ConnectとSpotify for Creatorsへ登録する。

@@ -1,6 +1,13 @@
 # Generated podcast audio
 episodes/*/audio/*
 !episodes/*/audio/.gitkeep
+!episodes/*/audio/episode-*.m4a
 
 # Local credentials
 .envrc
+
+# macOS metadata
+.DS_Store
+
+# Generated GitHub Pages site
+_site/
