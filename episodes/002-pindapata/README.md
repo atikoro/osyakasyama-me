@@ -20,4 +20,4 @@
 - SHA-256: `5267ce42efb002ef367f81f402efbee37cc590406546c6bafe0649fe9fc53de5`
 - AI音声レビュー: 承認
 - レポート: `review/audio-review.md`
-- 状態: 音声承認済み。公開処理はGitHub Actionsへ委ねる。
+- 状態: 公開承認済み。サイト生成と配信はGitHub Actionsへ委ねる。
