@@ -9,10 +9,16 @@ fi
 
 input=$1
 output=$2
+episode_dir=$(dirname "$input")
+pronunciations="$episode_dir/pronunciations.yaml"
+tts_input="$episode_dir/tts-input.txt"
+pronunciations_md="$episode_dir/pronunciations.md"
 work=$(mktemp -d "${TMPDIR:-/tmp}/podcast-long-tts.XXXXXX")
 trap 'rm -rf "$work"' EXIT HUP INT TERM
 
-python3 - "$input" "$work" "${TTS_CHUNK_CHARS:-1600}" <<'PY'
+scripts/prepare_tts_input.rb "$input" "$pronunciations" "$tts_input" "$pronunciations_md"
+
+python3 - "$tts_input" "$work" "${TTS_CHUNK_CHARS:-1600}" <<'PY'
 import sys
 from pathlib import Path
 

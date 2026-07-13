@@ -2,6 +2,7 @@
 
 - [x] 原文取得
 - [x] 音声用テキスト初稿
+- [x] 発音確認リスト作成
 - [ ] 原文との照合
 - [ ] 発音確認
 - [x] AI音声生成
@@ -12,8 +13,8 @@
 ## 生成結果
 
 - ファイル: `audio/episode-002.m4a`
-- 再生時間: 7.6分
-- ファイルサイズ: 3,987,800 bytes
-- Integrated loudness: -16.90 LUFS
-- True peak: -3.30 dBTP
+- 再生時間: 7.7分
+- ファイルサイズ: 4,007,461 bytes
+- Integrated loudness: -16.97 LUFS
+- True peak: -2.11 dBTP
 - 状態: 試聴・原文照合前。GitHub Pagesには未公開。

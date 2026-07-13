@@ -20,14 +20,14 @@ audio:
   model: tts-1-hd
   voice: coral
   file: audio/episode-002.m4a
-  duration_seconds: 456.400
+  duration_seconds: 462.400
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 69127
-  size_bytes: 3987800
-  sha256: acd9b78379a2a3d616d4b82290c3332c6f5f74efb3b51f60174c9ea2944cab5d
-  loudness_lufs: -16.90
-  true_peak_dbtp: -3.30
+  bitrate_bps: 68561
+  size_bytes: 4007461
+  sha256: 817943b9a3c34893100b0578d1b52c56ffc5fc0dc5d6efe6b801dc6d2348ba4f
+  loudness_lufs: -16.97
+  true_peak_dbtp: -2.11
   mime_type: audio/mp4
   review:
     status: pending

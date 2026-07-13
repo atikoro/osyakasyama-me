@@ -1,0 +1,106 @@
+version: 1
+entries:
+  - surface: Something like podcast
+    spoken: サムシング・ライク・ポッドキャスト
+    note: 番組名
+  - surface: Something like blog
+    spoken: サムシング・ライク・ブログ
+    note: ブログ名
+  - surface: 物乞い
+    spoken: ものごい
+    note: タイトルを含めて確認する
+  - surface: 托鉢
+    spoken: たくはつ
+    variants:
+      - 托鉢(たくはつ)
+    note: 仏教用語
+  - surface: 出家者
+    spoken: しゅっけしゃ
+    note: 「でいえしゃ」などにしない
+  - surface: 在家
+    spoken: ざいけ
+    note: 「ざいか」にしない
+  - surface: 功徳
+    spoken: くどく
+    note: 仏教用語
+  - surface: お釈迦様
+    spoken: おしゃかさま
+    note: 敬称を含めて自然に読む
+  - surface: 比丘尼
+    spoken: びくに
+    variants:
+      - 比丘尼(びくに)
+    note: 仏教用語
+  - surface: 比丘
+    spoken: びく
+    variants:
+      - 比丘(びく)
+    note: 仏教用語
+  - surface: 乞食
+    spoken: こじき
+    variants:
+      - 乞食(こじき)
+    note: 本文の指定読み
+  - surface: ルンペン
+    spoken: ルンペン
+    note: 外来語のアクセントを確認する
+  - surface: 180度
+    spoken: ひゃくはちじゅうど
+    note: 数字を自然に読む
+  - surface: 奪取
+    spoken: だっしゅ
+    note: 促音を確認する
+  - surface: 乞うている
+    spoken: こうている
+    note: 「こううている」にしない
+  - surface: 無分別
+    spoken: むふんべつ
+    note: 「見境がない」の文脈
+  - surface: 布教
+    spoken: ふきょう
+    note: 仏教用語
+  - surface: 説法
+    spoken: せっぽう
+    note: 促音を確認する
+  - surface: 厭離
+    spoken: おんり
+    variants:
+      - 厭離(おんり/えんり)
+    note: 音声では「おんり」を採用する
+  - surface: 推し活
+    spoken: おしかつ
+    note: 現代語
+  - surface: スパチャ
+    spoken: スパチャ
+    note: 「スーパーチャット」の略語
+  - surface: 布施
+    spoken: ふせ
+    note: 「ぬのほどこし」にしない
+  - surface: 喜捨
+    spoken: きしゃ
+    variants:
+      - 喜捨(きしゃ)
+    note: 仏教用語
+  - surface: 宗派
+    spoken: しゅうは
+    note: 長音を確認する
+  - surface: シノニム
+    spoken: シノニム
+    note: 外来語のアクセントを確認する
+  - surface: 賽銭
+    spoken: さいせん
+    note: 「さいぜん」にしない
+  - surface: 礎
+    spoken: いしずえ
+    note: 「そ」にしない
+  - surface: 凡夫
+    spoken: ぼんぷ
+    variants:
+      - 凡夫(ぼんぷ)
+    note: 半濁音を確認する
+  - surface: pleasure666
+    spoken: プレジャー・シックス・シックス・シックス
+    note: 著者名
+  - surface: Creative Commons 表示-非営利 4.0
+    spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
+    note: ライセンス表記

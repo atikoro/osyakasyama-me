@@ -124,6 +124,14 @@ def main() -> None:
             "- [ ] 公開承認\n",
             encoding="utf-8",
         )
+        pronunciations = directory / "pronunciations.yaml"
+        if not pronunciations.exists():
+            pronunciations.write_text(
+                "version: 1\n"
+                "# Add every reading that must be checked before generating audio.\n"
+                "entries: []\n",
+                encoding="utf-8",
+            )
         print(f"Prepared: {directory}")
 
 

@@ -29,8 +29,13 @@ Podcastでは、ブログ本文をできるだけ原文のまま朗読する。
 ## 記録
 
 - `source.txt`: 取得した原文
-- `narration.txt`: 実際にAI音声へ渡す文章
+- `narration.txt`: 原文との照合基準になる朗読原稿
+- `pronunciations.yaml`: 必須の発音辞書。表記とTTSへ渡す読みを記録する
+- `pronunciations.md`: 発音辞書から自動生成する人間向け確認リスト
+- `tts-input.txt`: 朗読原稿へ発音辞書を適用した、実際にAI音声へ渡す文章
 - `related_entries.json`: 音声案内と説明欄へ掲載する関連記事
 - `metadata.yaml`: 配信情報、音声仕様、レビュー状態
 
-公開前レビューでは`source.txt`と`narration.txt`を比較し、変更が最小限であることを確認する。
+すべてのエピソードで発音確認リストを必須とする。`pronunciations.yaml`が存在しない、空である、または登録した表記が`narration.txt`に存在しない場合、音声生成は失敗させる。
+
+公開前レビューでは`source.txt`と`narration.txt`を比較して変更が最小限であることを確認し、さらに`narration.txt`と`tts-input.txt`を比較して差分が発音調整だけであることを確認する。
