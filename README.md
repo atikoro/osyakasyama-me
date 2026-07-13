@@ -5,6 +5,7 @@
 - Podcast: <https://atikoro.github.io/osyakasyama-me/>
 - RSS: <https://atikoro.github.io/osyakasyama-me/feed.xml>
 - 制作方針: [`podcast/EDITORIAL_POLICY.md`](podcast/EDITORIAL_POLICY.md)
+- AI音声レビュー: [`podcast/AI_AUDIO_REVIEW.md`](podcast/AI_AUDIO_REVIEW.md)
 
 ## ライセンス
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Podcast Audio Review"
+  short_description: "Podcast音声の修正・再生成・多モデルレビュー"
+  default_prompt: "Use $review-podcast-audio to fix, regenerate, and verify a Podcast episode audio file."

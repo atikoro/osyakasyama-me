@@ -22,18 +22,19 @@ audio:
   model: tts-1-hd
   voice: coral
   file: audio/episode-001.m4a
-  duration_seconds: 441.600
+  duration_seconds: 454.600
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68853
-  size_bytes: 3843357
-  sha256: 4dfa7d074db73828c6afb8541509128872151dfe8543c1cf9fb701b1b7d9a263
-  loudness_lufs: -17.00
-  true_peak_dbtp: -1.63
+  bitrate_bps: 68956
+  size_bytes: 3962342
+  sha256: 3cf0befde10880101efd26b73e4551e82771f784523c1e38ab459643a31e424e
+  loudness_lufs: -17.13
+  true_peak_dbtp: -2.24
   mime_type: audio/mp4
   review:
     status: approved
     changes_required: false
+    report: review/audio-review.md
 explicit: false
 tags:
   - 哲学

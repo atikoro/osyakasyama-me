@@ -12,6 +12,12 @@ entries:
   - surface: 理不尽
     spoken: りふじん
     note: アクセントを確認する
+  - surface: 問屋
+    spoken: とんや
+    note: 「トニア」に聞こえないよう明示する
+  - surface: 卸しません
+    spoken: おろしません
+    note: 慣用句「そうは問屋が卸さない」の読み
   - surface: 先発
     spoken: せんぱつ
     note: 野球用語
@@ -21,6 +27,12 @@ entries:
   - surface: 抑え
     spoken: おさえ
     note: 野球用語
+  - surface: 0点
+    spoken: ゼロ点
+    note: 「ネオ点」に聞こえないよう明示する
+  - surface: 袋叩き
+    spoken: ふくろだたき
+    note: 「ふくだたき」にしない
   - surface: SNS
     spoken: エス・エヌ・エス
     note: アルファベットを区切る
@@ -28,7 +40,7 @@ entries:
     spoken: いどう
     note: 「移動」と同音だが意味に注意する
   - surface: pleasure666
-    spoken: プレジャー・シックス・シックス・シックス
+    spoken: プレジャー、シックス、シックス、シックス
     note: 著者名
   - surface: Creative Commons 表示-非営利 4.0
     spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
