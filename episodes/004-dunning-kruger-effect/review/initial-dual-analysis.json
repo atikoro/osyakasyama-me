@@ -1,0 +1,55 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に日付や固有名詞の誤認識が目立ちます。これらは音声の確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "2023年07月03日",
+      "heard_as": "2023年8月3日",
+      "classification": "needs_clip_confirmation",
+      "material": true,
+      "recommended_fix": "none",
+      "reason": "日付の誤認識は意味に影響するため、音声での確認が必要です。"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "Something like ブログ",
+      "classification": "likely_asr_normalization",
+      "material": false,
+      "recommended_fix": "none",
+      "reason": "英語の固有名詞のカタカナ化はASRの一般的な正規化です。"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "親ガチャ",
+      "heard_as": "お絵ガチャ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "誤認識により意味が変わるため、発音の明確化が必要です。"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "縁側で黙ってお茶を啜る",
+      "heard_as": "縁側で黙ってお茶を盛る",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "誤認識により意味が変わるため、発音の明確化が必要です。"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "ダニング＝クルーガー効果",
+      "spoken": "ダニングクルーガー効果",
+      "reason": "ハイフンの発音が曖昧になる可能性があるため、連続して発音する。"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "「ﾅﾆﾓﾜｶﾗﾅｲ」",
+      "replacement": "「何もわからない」",
+      "reason": "カタカナ表記は音声での理解が難しいため、ひらがな表記に変更。"
+    }
+  ]
+}

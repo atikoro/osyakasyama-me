@@ -20,18 +20,19 @@ audio:
   model: tts-1-hd
   voice: coral
   file: audio/episode-006.m4a
-  duration_seconds: 307.500
+  duration_seconds: 465.400
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68494
-  size_bytes: 2662849
-  sha256: 0100d0faa6953d079c1786b7284e60708395f5a629b924cbd866e6a9f3fa8d3c
-  loudness_lufs: -16.93
-  true_peak_dbtp: -1.03
+  bitrate_bps: 68627
+  size_bytes: 4037285
+  sha256: d2886aeef6db02492af8011e66cf64e90ddbc64cb95497ff87cb8e22670cd330
+  loudness_lufs: -16.96
+  true_peak_dbtp: -2.52
   mime_type: audio/mp4
   review:
-    status: pending
-    changes_required: null
+    status: approved
+    changes_required: false
+    report: review/audio-review.md
 explicit: false
 tags:
   - プログラミング

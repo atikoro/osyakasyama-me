@@ -1,0 +1,73 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や技術用語の発音に関しては、音声確認が必要な箇所があります。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞がカタカナで表記されているため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "misskeyのnoteテーブル",
+      "heard_as": "ミスキーのノートテーブル",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なるため"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "issue",
+      "heard_as": "イシュー",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の発音がカタカナで表記されているため"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "CLI",
+      "heard_as": "CLアイ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "技術用語の発音が異なるため"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "Misskeyバージョン13への道",
+      "heard_as": "ミスキーバージョン13への道地",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "英語の固有名詞の発音をカタカナで表記することで誤解を防ぐ"
+    },
+    {
+      "surface": "misskey",
+      "spoken": "ミスキー",
+      "reason": "固有名詞の発音をカタカナで表記することで誤解を防ぐ"
+    },
+    {
+      "surface": "issue",
+      "spoken": "イシュー",
+      "reason": "英語の発音をカタカナで表記することで誤解を防ぐ"
+    },
+    {
+      "surface": "CLI",
+      "spoken": "シーエルアイ",
+      "reason": "技術用語の発音をカタカナで表記することで誤解を防ぐ"
+    }
+  ],
+  "narration_clarity_edits": []
+}

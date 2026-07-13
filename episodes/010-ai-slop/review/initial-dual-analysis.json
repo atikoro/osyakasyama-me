@@ -1,0 +1,46 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞や専門用語の誤認識が目立ちます。これらは音声の確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 1,
+      "expected": "編集と真贋",
+      "heard_as": "編集と進発",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "真贋は進発と誤認されやすいが、意味が異なるため確認が必要"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "等しいのスコープ",
+      "heard_as": "人シーンのスコープ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "等しいのスコープは人シーンのスコープと誤認されており、意味が異なるため確認が必要"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "pleasure666",
+      "heard_as": "Pleasurexxx",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識であり、正確な発音が必要"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャーろくろくろく",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "AIスロップ",
+      "replacement": "エーアイスロップ",
+      "reason": "AIの発音が曖昧になりやすいため"
+    }
+  ]
+}

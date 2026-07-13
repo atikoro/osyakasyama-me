@@ -1,0 +1,56 @@
+version: 1
+entries:
+- surface: Something like podcast
+  spoken: サムシング・ライク・ポッドキャスト
+  note: 番組名
+- surface: Something like blog
+  spoken: サムシング・ライク・ブログ
+  note: ブログ名
+- surface: pleasure666
+  spoken: プレジャー、シックス、シックス、シックス
+  note: 著者名
+- surface: Creative Commons 表示-非営利 4.0
+  spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
+  note: ライセンス表記
+- surface: 告らなければ
+  spoken: こくらなければ
+  note: 口語表現
+- surface: 稲盛和夫
+  spoken: いなもり・かずお
+  note: 人名
+- surface: 問屋
+  spoken: とんや
+  note: 慣用句
+- surface: 卸さない
+  spoken: おろさない
+  note: 慣用句
+- surface: シュタインズゲートゼロ
+  spoken: シュタインズ・ゲート・ゼロ
+  note: 作品名
+- surface: 一浪
+  spoken: いちろう
+  note: 受験用語
+- surface: 10浪
+  spoken: じゅうろう
+  note: 受験用語
+- surface: 憎悪
+  spoken: ぞうお
+  note: 語頭を明瞭にする
+- surface: ソシャゲ
+  spoken: ソーシャルゲーム
+  note: 略語
+- surface: 諭吉
+  spoken: ゆきち
+  note: 紙幣の比喩
+- surface: 生贄
+  spoken: いけにえ
+  note: 誤読防止
+- surface: 詭弁
+  spoken: きべん
+  note: 誤読防止
+- surface: 申込み
+  spoken: もうしこみ
+  note: 誤読防止
+- surface: 憎悪が増える
+  spoken: ぞうおが、ふえる
+  note: 語境界を明瞭にする

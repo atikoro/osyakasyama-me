@@ -1,0 +1,73 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や技術用語の誤認識が目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "misskeyのnoteテーブルの容量を削減する",
+      "heard_as": "ミスキーのノートテーブルの容量を削減する",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Misskey Advent Calendar 2023",
+      "heard_as": "ミスキーアドベントカレンダー2023",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "mastodon",
+      "heard_as": "マストドン",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "issue",
+      "heard_as": "一週",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英単語の誤認識"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "cron",
+      "heard_as": "クロン",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "技術用語の誤認識"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "misskey",
+      "spoken": "ミスキー",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "mastodon",
+      "spoken": "マストドン",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "issue",
+      "spoken": "イシュー",
+      "reason": "英単語の誤認識を防ぐため"
+    },
+    {
+      "surface": "cron",
+      "spoken": "クロン",
+      "reason": "技術用語の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

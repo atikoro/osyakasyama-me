@@ -1,0 +1,63 @@
+{
+  "summary": "ASR文字起こしは全体的に原稿に忠実ですが、いくつかの箇所で誤認識が見られます。特に固有名詞や特定のフレーズでの誤りが目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語のフレーズが日本語風に聞こえているため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "サムシングライクブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語のフレーズが日本語風に聞こえているため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Fediverse Advent Calendar",
+      "heard_as": "フェディバースアドベントカレンダー",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なっているため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "玉石混交",
+      "heard_as": "抑積根高",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "成句の誤認識"
+    },
+    {
+      "approx_minute": 9,
+      "expected": "pleasure666",
+      "heard_as": "プレジャー666",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえているため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "英語のフレーズが日本語風に聞こえる可能性があるため"
+    },
+    {
+      "surface": "Fediverse Advent Calendar",
+      "spoken": "フェディバースアドベントカレンダー",
+      "reason": "固有名詞の発音が異なる可能性があるため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

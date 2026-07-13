@@ -1,0 +1,42 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や一部の表現において、音声とASRの間で不一致が見られます。",
+  "candidates": [
+    {
+      "approx_minute": 3,
+      "expected": "露ほども",
+      "heard_as": "梅雨ほども",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "「露ほども」と「梅雨ほども」は意味が異なり、文脈に合わないため"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "ひとつなぎの大コンテキスト",
+      "heard_as": "一つ凪の大コンテキスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "「ひとつなぎ」と「一つ凪」は意味が異なり、文脈に合わないため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "オレオレコンテキストおじさん",
+      "spoken": "オレオレコンテキストオジサン",
+      "reason": "固有名詞の発音を統一するため"
+    },
+    {
+      "surface": "ポルナレフ状態",
+      "spoken": "ポルナレフじょうたい",
+      "reason": "固有名詞の発音を統一するため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "Creative Commons 表示-非営利 4.0",
+      "replacement": "クリエイティブコモンズ 表示-非営利 4.0",
+      "reason": "英語表現を日本語読みすることでリスナーに分かりやすくするため"
+    }
+  ]
+}

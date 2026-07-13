@@ -1,0 +1,40 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、主に音声の不明瞭さに起因する可能性があります。特に固有名詞や日付の誤認識が目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "2024年10月01日",
+      "heard_as": "2024年10月A-O-1日",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "日付の誤認識は音声の不明瞭さが原因と考えられるため"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "等しいのスコープ",
+      "heard_as": "ひとしーのスコープ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識は音声の不明瞭さが原因と考えられるため"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "pleasure666",
+      "heard_as": "Pleasure Rex66",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識は音声の不明瞭さが原因と考えられるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

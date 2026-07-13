@@ -1,0 +1,44 @@
+version: 1
+entries:
+- surface: Something like podcast
+  spoken: サムシング・ライク・ポッドキャスト
+  note: 番組名
+- surface: Something like blog
+  spoken: サムシング・ライク・ブログ
+  note: ブログ名
+- surface: 原作は pleasure666
+  spoken: 原作は、プレジャー、シックス、シックス、シックス
+  note: 著者名を前後から分離する
+- surface: Creative Commons 表示-非営利 4.0
+  spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
+  note: ライセンス表記
+- surface: 一緒くた
+  spoken: いっしょくた
+  note: 誤読防止
+- surface: 叱咤
+  spoken: しった
+  note: 誤読防止
+- surface: Git
+  spoken: ギット
+  note: 開発ツール名
+- surface: GitHub
+  spoken: ギットハブ
+  note: サービス名
+- surface: AI
+  spoken: エー・アイ
+  note: 略語
+- surface: 顕になり
+  spoken: あらわになり
+  note: 文脈上の読み
+- surface: 孕んで
+  spoken: はらんで
+  note: 誤読防止
+- surface: 潜ませる
+  spoken: ひそませる
+  note: 誤読防止
+- surface: 珍プレー
+  spoken: ちん・プレー
+  note: 語頭を明瞭にする
+- surface: 好プレー
+  spoken: こう・プレー
+  note: 語頭を明瞭にする

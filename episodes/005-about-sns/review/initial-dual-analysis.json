@@ -1,0 +1,45 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や特定のフレーズにおいて、音声の確認が必要な箇所があります。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "Something Like Podcaster",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Fediverse Advent Calendar",
+      "heard_as": "フェリバースアドベントカレンダー",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 8,
+      "expected": "pleasure666",
+      "heard_as": "Pleasure 066",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Fediverse",
+      "spoken": "フェディバース",
+      "reason": "固有名詞の正確な発音を確保するため"
+    },
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の正確な発音を確保するため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

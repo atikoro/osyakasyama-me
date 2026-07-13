@@ -1,0 +1,44 @@
+version: 1
+entries:
+- surface: Something like podcast
+  spoken: サムシング・ライク・ポッドキャスト
+  note: 番組名
+- surface: Something like blog
+  spoken: サムシング・ライク・ブログ
+  note: ブログ名
+- surface: pleasure666
+  spoken: プレジャー、シックス、シックス、シックス
+  note: 著者名
+- surface: Creative Commons 表示-非営利 4.0
+  spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
+  note: ライセンス表記
+- surface: ダニング＝クルーガー効果
+  spoken: ダニング・クルーガー効果
+  note: 固有名詞
+- surface: 親ガチャ
+  spoken: おやガチャ
+  note: 語頭を明瞭にする
+- surface: 醜悪
+  spoken: しゅうあく
+  note: 誤読防止
+- surface: 迂闊
+  spoken: うかつ
+  note: 誤読防止
+- surface: 饒舌
+  spoken: じょうぜつ
+  note: 誤読防止
+- surface: 啜る
+  spoken: すする
+  note: 語尾の誤認防止
+- surface: 軌跡
+  spoken: きせき
+  note: 文脈上の読み
+- surface: 寡黙な達人
+  spoken: かもくな、たつじん
+  note: 達人と他人の混同防止
+- surface: 欠如
+  spoken: けつじょ
+  note: 決意との混同防止
+- surface: 浮気
+  spoken: うわき
+  note: 音節を明瞭にする

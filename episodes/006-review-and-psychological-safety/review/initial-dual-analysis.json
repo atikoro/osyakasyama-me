@@ -1,0 +1,65 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞やフレーズの誤認識がある。これらは音声の確認が必要な箇所が多い。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "something likeブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "珍プレー好プレー",
+      "heard_as": "ビズプレー・コープレー",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "ピープルウェア(システムではなく人)",
+      "heard_as": "ピープルウェア、システムではなく人",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "括弧内の内容が誤認識されている"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "Pleasure666",
+      "heard_as": "Pleasure X66",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like blog",
+      "spoken": "サムシングライクブログ",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "珍プレー好プレー",
+      "spoken": "ちんプレーこうプレー",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "Pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "Git(GitHub)が開発のスタンダードとなった今",
+      "replacement": "GitやGitHubが開発のスタンダードとなった今",
+      "reason": "GitとGitHubの関係を明確にするため"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や技術用語の誤認識が目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "Something Like Podcast",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なる可能性があるため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "misskeyのnoteテーブルの容量を削減する",
+      "heard_as": "ミスキーのノートテーブルの容量を削減する",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なる可能性があるため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Misskey Advent Calendar 2023",
+      "heard_as": "ミスキーアドベントカレンダー2023",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の発音が異なる可能性があるため"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "tootctl statuses remove",
+      "heard_as": "TootCTL Statuses Remove",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "技術用語の発音が異なる可能性があるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "misskey",
+      "spoken": "ミスキー",
+      "reason": "固有名詞の発音を統一するため"
+    },
+    {
+      "surface": "tootctl",
+      "spoken": "トゥートシーティーエル",
+      "reason": "技術用語の発音を統一するため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "mastodonでお一人様鯖を運用していて",
+      "replacement": "マストドンで一人用のサーバーを運用していて",
+      "reason": "一般的な表現に置き換えることで理解を助けるため"
+    }
+  ]
+}

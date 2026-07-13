@@ -1,0 +1,46 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や専門用語の誤認識が目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 1,
+      "expected": "相容れない",
+      "heard_as": "そう言われない",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、正しい表現は「相容れない」であり、誤認識が発生している可能性が高い。"
+    },
+    {
+      "approx_minute": 6,
+      "expected": "田中角栄",
+      "heard_as": "田中核英",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識であり、文脈上「田中角栄」が正しい。"
+    },
+    {
+      "approx_minute": 11,
+      "expected": "pleasure666",
+      "heard_as": "プレジャー6666",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識であり、正しい表記は「pleasure666」。"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "M＆A",
+      "spoken": "エムアンドエー",
+      "reason": "略語の発音が不明瞭になる可能性があるため、明確に発音する必要がある。"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "中庸と自然権について触れたブログエントリ「アリストテレス対ホッブズ」へのリンクを、説明欄に掲載しています。",
+      "replacement": "中庸と自然権について触れたブログエントリ、アリストテレス対ホッブズへのリンクを説明欄に掲載しています。",
+      "reason": "音声での区切りを明確にするため。"
+    }
+  ]
+}

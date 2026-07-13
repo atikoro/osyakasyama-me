@@ -1,0 +1,46 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤認識が見られ、特に固有名詞や慣用句の部分での誤りが目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 1,
+      "expected": "フロー状態",
+      "heard_as": "不老状態",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "フロー状態は専門用語であり、誤認識されると意味が変わるため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "問屋が卸しません",
+      "heard_as": "鳥屋が下ろしません",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "慣用句の誤認識であり、意味が変わるため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "人月の神話",
+      "heard_as": "人好きの神話",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "書籍名の誤認識であり、固有名詞のため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の発音を明確にするため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "それでは、また次回。",
+      "replacement": "それでは、また次回お会いしましょう。",
+      "reason": "より自然な終わり方にするため"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞や専門用語の誤認識が目立ちます。これらは音声の確認が必要です。また、原稿においても発音辞書での予防が推奨される箇所があります。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "2024年12月02日",
+      "heard_as": "2024年12月0日",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "日付の誤認識は意味に影響を与えるため"
+    },
+    {
+      "approx_minute": 11,
+      "expected": "pleasure666",
+      "heard_as": "プレジャーレックスロクロクス",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識は意味に影響を与えるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "M＆A",
+      "spoken": "エムアンドエー",
+      "reason": "略語の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "諸行は壊法ですから",
+      "replacement": "諸行無常ですから",
+      "reason": "一般的な表現に置き換えることで理解を助けるため"
+    }
+  ]
+}

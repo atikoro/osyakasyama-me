@@ -1,0 +1,60 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞や特定のフレーズにおいて音声の確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast。",
+      "heard_as": "Something Like Podcast",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞の発音が異なる可能性があるため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "2023年04月03日に公開された",
+      "heard_as": "2023年4月大三木に公開された",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "日付の誤認識があるため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "稲盛和夫",
+      "heard_as": "みたいなことは",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "引用部分の誤認識があるため"
+    },
+    {
+      "approx_minute": 18,
+      "expected": "ピンチはチャンスといいますが、チャンス(機会)がピンチ(副作用を生む)になることもあるのです。",
+      "heard_as": "ピンチはチャンスと言いますが、チャンスネガピンチフフームになることもあるのです。",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "フレーズの誤認識があるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "英語の固有名詞の発音を統一するため"
+    },
+    {
+      "surface": "稲盛和夫",
+      "spoken": "いなもりかずお",
+      "reason": "固有名詞の正確な発音を確保するため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "自由や愛や民主主義と同様に、試行回数の多さも無条件に良いものとされていますが、それにもやはり副作用はあるのです。",
+      "replacement": "自由や愛や民主主義と同様に、試行回数の多さも無条件に良いものとされていますが、それにもやはり副作用はあります。",
+      "reason": "文末の表現を統一し、明確にするため"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞や専門用語の発音に関するものが多い。これらは音声の確認が必要な場合がある。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえている"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "サムシングライクブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえている"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "pleasure666",
+      "heard_as": "プレジャー666",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえている"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "ダニング＝クルーガー効果",
+      "spoken": "ダニングクルーガー効果",
+      "reason": "ハイフンを省略して発音する可能性があるため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "Creative Commons 表示-非営利 4.0",
+      "replacement": "クリエイティブ・コモンズ 表示-非営利 4.0",
+      "reason": "英語の固有名詞を日本語風に発音するため"
+    }
+  ]
+}

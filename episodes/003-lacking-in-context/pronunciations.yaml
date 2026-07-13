@@ -1,0 +1,53 @@
+version: 1
+entries:
+- surface: Something like podcast
+  spoken: サムシング・ライク・ポッドキャスト
+  note: 番組名
+- surface: Something like blog
+  spoken: サムシング・ライク・ブログ
+  note: ブログ名
+- surface: pleasure666
+  spoken: プレジャー、シックス、シックス、シックス
+  note: 著者名
+- surface: Creative Commons 表示-非営利 4.0
+  spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
+  note: ライセンス表記
+- surface: パズル＆リズムゲー
+  spoken: パズル・アンド・リズムゲーム
+  note: 記号と略称を明示する
+- surface: 十全
+  spoken: じゅうぜん
+  note: 誤読防止
+- surface: 等しいのスコープ
+  spoken: ひとしいのスコープ
+  note: 記事名
+- surface: 露ほど
+  spoken: つゆほど
+  note: 慣用表現
+- surface: 忙しなく
+  spoken: せわしなく
+  note: 誤読防止
+- surface: 井の中の蛙
+  spoken: いのなかのかわず
+  note: 慣用句
+- surface: AをBにする
+  spoken: エーをビーにする
+  note: 変数名
+- surface: CをDにする
+  spoken: シーをディーにする
+  note: 変数名
+- surface: Yを実現する
+  spoken: ワイを実現する
+  note: 変数名
+- surface: EをFにした方がいい
+  spoken: イーをエフにした方がいい
+  note: 変数名
+- surface: GをHにした方がいい
+  spoken: ジーをエイチにした方がいい
+  note: 変数名
+- surface: 理由を省き
+  spoken: 理由を、はぶき
+  note: 音節脱落防止
+- surface: 後日、その相手
+  spoken: ごじつ、その相手
+  note: 語頭の誤認防止

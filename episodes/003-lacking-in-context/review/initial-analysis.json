@@ -1,0 +1,46 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や特定の表現において、音声の確認が必要な箇所があります。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "2024年10月01日",
+      "heard_as": "2024年10月A-O-1日",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "日付の読み上げが不自然であるため"
+    },
+    {
+      "approx_minute": 2,
+      "expected": "等しいのスコープ",
+      "heard_as": "ひとしーのスコープ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "pleasure666",
+      "heard_as": "Pleasure Rex66",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "オレオレコンテキストおじさん",
+      "replacement": "オレオレコンテキストおじさん",
+      "reason": "特に変更の必要なし"
+    }
+  ]
+}

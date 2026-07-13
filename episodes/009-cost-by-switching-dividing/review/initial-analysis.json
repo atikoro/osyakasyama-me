@@ -1,0 +1,37 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や専門用語の誤認識が目立ちます。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "フロー状態",
+      "heard_as": "プロ状態",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "フロー状態は専門用語であり、誤認識されると意味が変わるため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "人月の神話",
+      "heard_as": "人好きの神話",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識により、参照先が不明確になるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "人月の神話",
+      "spoken": "じんげつのしんわ",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "フローという言葉の意味が分からない人はここでは説明しないのでググるか無視してください。",
+      "replacement": "フローという言葉の意味が分からない人は、ここでは説明しないので、調べるか無視してください。",
+      "reason": "カジュアルな表現を避け、より明確な指示を与えるため"
+    }
+  ]
+}

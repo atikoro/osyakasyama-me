@@ -1,0 +1,50 @@
+{
+  "summary": "ASR文字起こしは全体的に正確ですが、いくつかの箇所で音声の確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語カタカナで表記されているため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "サムシングライクブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語カタカナで表記されているため"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "pleasure666",
+      "heard_as": "プレジャー666",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語カタカナで表記されているため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "英語の固有名詞をカタカナで発音する場合があるため"
+    },
+    {
+      "surface": "Something like blog",
+      "spoken": "サムシングライクブログ",
+      "reason": "英語の固有名詞をカタカナで発音する場合があるため"
+    },
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "英語の固有名詞をカタカナで発音する場合があるため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

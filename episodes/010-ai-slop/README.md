@@ -2,18 +2,21 @@
 
 - [x] 原文取得
 - [x] 音声用テキスト初稿
-- [ ] 原文との照合
-- [ ] 発音確認
+- [x] 原文との照合
+- [x] 発音確認
 - [x] AI音声生成
-- [ ] 試聴
+- [x] AI文字起こしによる音声レビュー
 - [x] 配信用M4A生成
 - [ ] 公開承認
 
 ## 生成結果
 
 - ファイル: `audio/episode-010.m4a`
-- 再生時間: 7.4分
-- ファイルサイズ: 3,885,300 bytes
-- Integrated loudness: -16.84 LUFS
-- True peak: -4.51 dBTP
-- 状態: 試聴・原文照合前。GitHub Pagesには未公開。
+- 再生時間: 7.8分
+- ファイルサイズ: 4,091,358 bytes
+- Integrated loudness: -16.94 LUFS
+- True peak: -1.45 dBTP
+- SHA-256: `a8613b03a43ba6ae0fe34070e672bf89dec79dc0aa557e37cb4e44a145cc616f`
+- AI音声レビュー: 承認
+- レポート: `review/audio-review.md`
+- 状態: 音声承認済み。公開ステータスは未変更。

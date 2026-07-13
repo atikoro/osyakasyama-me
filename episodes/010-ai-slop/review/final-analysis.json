@@ -1,0 +1,54 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られ、特に固有名詞や専門用語の誤認識が目立ちます。これらは音声の確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "サムシングライクブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "ユ・ビ・キ・タ・ス言語",
+      "heard_as": "指揮多す言語",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    },
+    {
+      "approx_minute": 7,
+      "expected": "pleasure666",
+      "heard_as": "プレジャー6666",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "ユ・ビ・キ・タ・ス言語",
+      "spoken": "ユビキタス言語",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "pleasure666",
+      "spoken": "プレジャー666",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

@@ -1,0 +1,54 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や特定のフレーズにおいて、音声の確認が必要な箇所があります。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "Something like podcast",
+      "heard_as": "サムシングライクポッドキャスト",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえているため"
+    },
+    {
+      "approx_minute": 0,
+      "expected": "Something like blog",
+      "heard_as": "サムシングライクブログ",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "英語の固有名詞が日本語風に聞こえているため"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "渡見社長",
+      "heard_as": "渡見社長",
+      "classification": "needs_clip_confirmation",
+      "material": true,
+      "recommended_fix": "none",
+      "reason": "固有名詞の発音確認が必要"
+    },
+    {
+      "approx_minute": 19,
+      "expected": "プレジャー666",
+      "heard_as": "プレジャー666",
+      "classification": "needs_clip_confirmation",
+      "material": true,
+      "recommended_fix": "none",
+      "reason": "固有名詞の発音確認が必要"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "英語の固有名詞が日本語風に聞こえる可能性があるため"
+    },
+    {
+      "surface": "Something like blog",
+      "spoken": "サムシングライクブログ",
+      "reason": "英語の固有名詞が日本語風に聞こえる可能性があるため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

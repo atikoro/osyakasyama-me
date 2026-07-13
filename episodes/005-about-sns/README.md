@@ -2,18 +2,21 @@
 
 - [x] 原文取得
 - [x] 音声用テキスト初稿
-- [ ] 原文との照合
-- [ ] 発音確認
+- [x] 原文との照合
+- [x] 発音確認
 - [x] AI音声生成
-- [ ] 試聴
+- [x] AI文字起こしによる音声レビュー
 - [x] 配信用M4A生成
 - [ ] 公開承認
 
 ## 生成結果
 
 - ファイル: `audio/episode-005.m4a`
-- 再生時間: 9.0分
-- ファイルサイズ: 4,726,177 bytes
-- Integrated loudness: -16.89 LUFS
-- True peak: -4.07 dBTP
-- 状態: 試聴・原文照合前。GitHub Pagesには未公開。
+- 再生時間: 9.3分
+- ファイルサイズ: 4,862,032 bytes
+- Integrated loudness: -17.16 LUFS
+- True peak: -1.70 dBTP
+- SHA-256: `c29ed8a316169165cc0c812954c8fbd021757333421943746da45409dc2e421d`
+- AI音声レビュー: 承認
+- レポート: `review/audio-review.md`
+- 状態: 音声承認済み。公開ステータスは未変更。

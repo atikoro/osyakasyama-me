@@ -1,0 +1,36 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に固有名詞や専門用語の誤認識があり、確認が必要です。",
+  "candidates": [
+    {
+      "approx_minute": 0,
+      "expected": "珍プレー好プレー",
+      "heard_as": "ビズプレー・コープレー",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識であり、意味が変わるため"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "Pleasure666",
+      "heard_as": "Pleasure X66",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "固有名詞の誤認識であり、意味が変わるため"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "珍プレー好プレー",
+      "spoken": "ちんぷれーこうぷれー",
+      "reason": "固有名詞の誤認識を防ぐため"
+    },
+    {
+      "surface": "Pleasure666",
+      "spoken": "プレジャーろくろくろく",
+      "reason": "固有名詞の誤認識を防ぐため"
+    }
+  ],
+  "narration_clarity_edits": []
+}

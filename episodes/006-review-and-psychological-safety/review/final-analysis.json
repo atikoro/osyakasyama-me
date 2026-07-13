@@ -1,0 +1,78 @@
+{
+  "summary": "ASR文字起こしにはいくつかの誤りが見られますが、全体としては原稿の内容を概ね正確に反映しています。特に、固有名詞や専門用語の誤認識がいくつかあります。",
+  "candidates": [
+    {
+      "approx_minute": 2,
+      "expected": "懐疑的",
+      "heard_as": "怪異的",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、懐疑的が正しい"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "バツ",
+      "heard_as": "罰",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、テストの答案用紙のバツが正しい"
+    },
+    {
+      "approx_minute": 3,
+      "expected": "ニッツ",
+      "heard_as": "日通",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、ニッツが正しい"
+    },
+    {
+      "approx_minute": 4,
+      "expected": "指摘内容",
+      "heard_as": "私的内容",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、指摘内容が正しい"
+    },
+    {
+      "approx_minute": 5,
+      "expected": "貶かす",
+      "heard_as": "貶かす",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、脅かすが正しい"
+    },
+    {
+      "approx_minute": 6,
+      "expected": "損度",
+      "heard_as": "損度",
+      "classification": "likely_audio_defect",
+      "material": true,
+      "recommended_fix": "pronunciation",
+      "reason": "文脈上、忖度が正しい"
+    }
+  ],
+  "preventive_pronunciations": [
+    {
+      "surface": "Something like podcast",
+      "spoken": "サムシングライクポッドキャスト",
+      "reason": "固有名詞の発音を統一するため"
+    },
+    {
+      "surface": "GitHub",
+      "spoken": "ギットハブ",
+      "reason": "固有名詞の発音を統一するため"
+    }
+  ],
+  "narration_clarity_edits": [
+    {
+      "original": "レビューと心理的安全性",
+      "replacement": "レビューと心理的安全性について",
+      "reason": "文脈を明確にするため"
+    }
+  ]
+}
