@@ -9,6 +9,9 @@ entries:
   - surface: 物乞い
     spoken: ものごい
     note: タイトルを含めて確認する
+  - surface: 物乞いと托鉢
+    spoken: ものごい、と、たくはつ
+    note: タイトルの二語を連結させない
   - surface: 托鉢
     spoken: たくはつ
     variants:
@@ -26,6 +29,15 @@ entries:
   - surface: お釈迦様
     spoken: おしゃかさま
     note: 敬称を含めて自然に読む
+  - surface: 偽物
+    spoken: にせもの
+    note: 「みせもの」にしない
+  - surface: 行っていました
+    spoken: おこなっていました
+    note: 「いっていました」にしない
+  - surface: 行っている
+    spoken: おこなっている
+    note: 「いっている」にしない
   - surface: 比丘尼
     spoken: びくに
     variants:
@@ -53,9 +65,12 @@ entries:
   - surface: 乞うている
     spoken: こうている
     note: 「こううている」にしない
-  - surface: 無分別
-    spoken: むふんべつ
-    note: 「見境がない」の文脈
+  - surface: 見境
+    spoken: みさかい
+    note: 「みそ」「りそう」などにしない
+  - surface: 施し
+    spoken: ほどこし
+    note: 「こどどし」などにしない
   - surface: 布教
     spoken: ふきょう
     note: 仏教用語
@@ -67,9 +82,18 @@ entries:
     variants:
       - 厭離(おんり/えんり)
     note: 音声では「おんり」を採用する
+  - surface: 捗り
+    spoken: はかどり
+    note: 「ほばり」などにしない
   - surface: 推し活
     spoken: おしかつ
     note: 現代語
+  - surface: 傍から
+    spoken: はたから
+    note: 「そばから」「サバから」にしない
+  - surface: 貢いでおり
+    spoken: みついでおり
+    note: 「推していており」にしない
   - surface: スパチャ
     spoken: スパチャ
     note: 「スーパーチャット」の略語
@@ -93,13 +117,25 @@ entries:
   - surface: 礎
     spoken: いしずえ
     note: 「そ」にしない
+  - surface: 施した
+    spoken: ほどこした
+    note: 「徳を起こした」に聞こえないよう明示する
+  - surface: 施すより施される
+    spoken: ほどこすより、ほどこされる
+    note: 受動形を含めて明瞭に読む
+  - surface: 何故か
+    spoken: なぜか
+    note: 「なんとか」にしない
+  - surface: 貢がれるし
+    spoken: みつがれるし
+    note: 「愛されるし」にしない
   - surface: 凡夫
     spoken: ぼんぷ
     variants:
       - 凡夫(ぼんぷ)
     note: 半濁音を確認する
   - surface: pleasure666
-    spoken: プレジャー・シックス・シックス・シックス
+    spoken: プレジャー、シックス、シックス、シックス
     note: 著者名
   - surface: Creative Commons 表示-非営利 4.0
     spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
