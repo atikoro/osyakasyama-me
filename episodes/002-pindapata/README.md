@@ -14,10 +14,10 @@
 
 - ファイル: `audio/episode-002.m4a`
 - 再生時間: 約8.0分
-- ファイルサイズ: 4,166,122 bytes
-- Integrated loudness: -16.94 LUFS
-- True peak: -1.40 dBTP
-- SHA-256: `5267ce42efb002ef367f81f402efbee37cc590406546c6bafe0649fe9fc53de5`
-- AI音声レビュー: 承認
+- ファイルサイズ: 4,179,506 bytes
+- Integrated loudness: -17.08 LUFS
+- True peak: -0.84 dBTP
+- SHA-256: `a473a73a809b0105bde77ca4ace5521f11e45af26de07b4d71ce6c6f8cfe1073`
+- AI音声レビュー: 承認（「出家」を「しゅっけ」に修正済み）
 - レポート: `review/audio-review.md`
 - 状態: 公開承認済み。サイト生成と配信はGitHub Actionsへ委ねる。

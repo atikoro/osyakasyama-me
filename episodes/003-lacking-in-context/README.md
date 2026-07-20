@@ -7,16 +7,16 @@
 - [x] AI音声生成
 - [x] AI文字起こしによる音声レビュー
 - [x] 配信用M4A生成
-- [ ] 公開承認
+- [x] 公開承認
 
 ## 生成結果
 
 - ファイル: `audio/episode-003.m4a`
-- 再生時間: 8.2分
-- ファイルサイズ: 4,284,585 bytes
-- Integrated loudness: -17.05 LUFS
-- True peak: -1.47 dBTP
-- SHA-256: `2d21783936477f5bd75efe6e1db0a06975e0b89388a93a81afd87fda50340cd2`
-- AI音声レビュー: 承認
+- 再生時間: 8.1分
+- ファイルサイズ: 4,204,510 bytes
+- Integrated loudness: -17.07 LUFS
+- True peak: -1.92 dBTP
+- SHA-256: `464b0a3a1cd381f723b524f4731a9ee269d0a3c3a9ec448e9d464127f72d776a`
+- AI音声レビュー: 承認（「リズムゲー」「さいて」「おのおの」を確認済み）
 - レポート: `review/audio-review.md`
-- 状態: 音声承認済み。公開ステータスは未変更。
+- 状態: 公開承認済み。サイト生成と配信はGitHub Actionsへ委ねる。

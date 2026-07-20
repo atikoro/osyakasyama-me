@@ -2,8 +2,8 @@ id: 003-lacking-in-context
 episode: 3
 title: "オレオレコンテキストおじさん"
 slug: lacking-in-context
-status: audio_generated
-published_at: null
+status: published
+published_at: "2026-07-21T01:22:00+09:00"
 source:
   title: "オレオレコンテキストおじさん"
   author: pleasure666
@@ -20,14 +20,14 @@ audio:
   model: tts-1-hd
   voice: coral
   file: audio/episode-003.m4a
-  duration_seconds: 492.000
+  duration_seconds: 483.600
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68897
-  size_bytes: 4284585
-  sha256: 2d21783936477f5bd75efe6e1db0a06975e0b89388a93a81afd87fda50340cd2
-  loudness_lufs: -17.05
-  true_peak_dbtp: -1.47
+  bitrate_bps: 68782
+  size_bytes: 4204510
+  sha256: 464b0a3a1cd381f723b524f4731a9ee269d0a3c3a9ec448e9d464127f72d776a
+  loudness_lufs: -17.07
+  true_peak_dbtp: -1.92
   mime_type: audio/mp4
   review:
     status: approved

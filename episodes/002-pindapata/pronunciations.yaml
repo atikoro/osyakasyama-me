@@ -17,9 +17,15 @@ entries:
     variants:
       - 托鉢(たくはつ)
     note: 仏教用語
+  - surface: 出家
+    spoken: しゅっけ
+    note: 「しゅっか」などにしない
   - surface: 出家者
     spoken: しゅっけしゃ
-    note: 「でいえしゃ」などにしない
+    note: 語尾まで仮名で指定する
+  - surface: 出家側
+    spoken: しゅっけがわ
+    note: 語尾まで仮名で指定する
   - surface: 在家
     spoken: ざいけ
     note: 「ざいか」にしない

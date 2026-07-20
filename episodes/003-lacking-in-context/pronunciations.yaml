@@ -13,8 +13,8 @@ entries:
   spoken: クリエイティブ・コモンズ、表示・非営利、よんてんゼロ
   note: ライセンス表記
 - surface: パズル＆リズムゲー
-  spoken: パズル・アンド・リズムゲーム
-  note: 記号と略称を明示する
+  spoken: パズル・アンド・リズムゲー
+  note: 記号を明示し、「リズムゲーム」へ展開しない
 - surface: 十全
   spoken: じゅうぜん
   note: 誤読防止
@@ -51,3 +51,9 @@ entries:
 - surface: 後日、その相手
   spoken: ごじつ、その相手
   note: 語頭の誤認防止
+- surface: 割いて
+  spoken: さいて
+  note: 「わいて」などにしない
+- surface: 各々
+  spoken: おのおの
+  note: 「かくかく」などにしない
