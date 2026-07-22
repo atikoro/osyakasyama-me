@@ -42,3 +42,36 @@ entries:
 - surface: 浮気
   spoken: うわき
   note: 音節を明瞭にする
+- surface: 嫌悪感
+  spoken: けんおかん
+  note: 「けんあくかん」などにしない
+- surface: 深めていく様
+  spoken: ふかめていくさま
+  note: 「よう」ではなく「さま」と読む
+- surface: 嬉々として
+  spoken: ききとして
+  note: 「うれうれとして」などにしない
+- surface: 堪えて
+  spoken: こらえて
+  note: 「たえて」ではなく「こらえて」と読む
+- surface: 賄う
+  spoken: まかなう
+  note: 「まう」などにしない
+- surface: 目の当たり
+  spoken: まのあたり
+  note: 慣用表現の読み
+- surface: 見出して
+  spoken: みいだして
+  note: 「みだして」などにしない
+- surface: 泰然自若
+  spoken: たいぜんじじゃく
+  note: 指定どおり「じじゃく」と読む
+- surface: 良い面
+  spoken: よいめん
+  note: 「いいめん」ではなく「よいめん」と読む
+- surface: 恋も冷める
+  spoken: こいもさめる
+  note: 語の境界を明瞭にする
+- surface: 何故なら
+  spoken: なぜなら
+  note: 「なになら」などにしない

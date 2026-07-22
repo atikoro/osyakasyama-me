@@ -2,8 +2,8 @@ id: 004-dunning-kruger-effect
 episode: 4
 title: "恋のダニング＝クルーガー効果"
 slug: dunning-kruger-effect
-status: audio_generated
-published_at: null
+status: published
+published_at: "2026-07-23T01:34:12+09:00"
 source:
   title: "恋のダニング＝クルーガー効果"
   author: pleasure666
@@ -20,14 +20,14 @@ audio:
   model: tts-1-hd
   voice: coral
   file: audio/episode-004.m4a
-  duration_seconds: 488.000
+  duration_seconds: 491.300
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68812
-  size_bytes: 4244573
-  sha256: 70f89f1d9e210081b8d9d1d79b15376bccdd0c68d220f1317c83e1c2b4b0e722
-  loudness_lufs: -17.27
-  true_peak_dbtp: -1.06
+  bitrate_bps: 68970
+  size_bytes: 4283000
+  sha256: f4ad170c9d5de3a6ef61ce274ae5901ca5e9144e6c93b2c1c62ae61097f0225e
+  loudness_lufs: -17.25
+  true_peak_dbtp: -1.98
   mime_type: audio/mp4
   review:
     status: approved

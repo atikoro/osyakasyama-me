@@ -7,16 +7,16 @@
 - [x] AI音声生成
 - [x] AI文字起こしによる音声レビュー
 - [x] 配信用M4A生成
-- [ ] 公開承認
+- [x] 公開承認
 
 ## 生成結果
 
 - ファイル: `audio/episode-004.m4a`
-- 再生時間: 8.1分
-- ファイルサイズ: 4,244,573 bytes
-- Integrated loudness: -17.27 LUFS
-- True peak: -1.06 dBTP
-- SHA-256: `70f89f1d9e210081b8d9d1d79b15376bccdd0c68d220f1317c83e1c2b4b0e722`
-- AI音声レビュー: 承認
+- 再生時間: 8.2分
+- ファイルサイズ: 4,283,000 bytes
+- Integrated loudness: -17.25 LUFS
+- True peak: -1.98 dBTP
+- SHA-256: `f4ad170c9d5de3a6ef61ce274ae5901ca5e9144e6c93b2c1c62ae61097f0225e`
+- AI音声レビュー: 承認（指定された11件の読みを反映・再レビュー済み）
 - レポート: `review/audio-review.md`
-- 状態: 音声承認済み。公開ステータスは未変更。
+- 状態: 公開承認済み。サイト生成と配信はGitHub Actionsへ委ねる。
