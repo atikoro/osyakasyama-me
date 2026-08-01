@@ -7,16 +7,17 @@
 - [x] AI音声生成
 - [x] AI文字起こしによる音声レビュー
 - [x] 配信用M4A生成
-- [ ] 公開承認
+- [x] 公開承認
 
 ## 生成結果
 
 - ファイル: `audio/episode-005.m4a`
-- 再生時間: 9.3分
-- ファイルサイズ: 4,862,032 bytes
-- Integrated loudness: -17.16 LUFS
-- True peak: -1.70 dBTP
-- SHA-256: `c29ed8a316169165cc0c812954c8fbd021757333421943746da45409dc2e421d`
+- モデル／音声: `gpt-4o-mini-tts` / `marin`
+- 再生時間: 8.9分
+- ファイルサイズ: 4,574,136 bytes
+- Integrated loudness: -16.30 LUFS
+- True peak: -2.36 dBTP
+- SHA-256: `8534a460a5301a60cd9d6b36be4e0c508fe7e180c35b3275b6cb76df303e18bc`
 - AI音声レビュー: 承認
 - レポート: `review/audio-review.md`
-- 状態: 音声承認済み。公開ステータスは未変更。
+- 状態: marin版を音声承認し、公開ステータスへ更新済み。

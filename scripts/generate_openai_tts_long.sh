@@ -2,13 +2,15 @@
 
 set -eu
 
-if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 INPUT_TEXT OUTPUT_MP3" >&2
+if [ "$#" -lt 2 ] || [ "$#" -gt 4 ]; then
+  echo "Usage: $0 INPUT_TEXT OUTPUT_MP3 [MODEL] [VOICE]" >&2
   exit 64
 fi
 
 input=$1
 output=$2
+model=${3:-tts-1-hd}
+voice=${4:-coral}
 episode_dir=$(dirname "$input")
 pronunciations="$episode_dir/pronunciations.yaml"
 tts_input="$episode_dir/tts-input.txt"
@@ -44,7 +46,7 @@ PY
 for chunk in "$work"/chunk-*.txt; do
   number=$(basename "$chunk" .txt)
   mp3="$work/$number.mp3"
-  scripts/generate_openai_tts.sh "$chunk" "$mp3"
+  scripts/generate_openai_tts.sh "$chunk" "$mp3" "$model" "$voice"
   printf "file '%s'\n" "$mp3" >> "$work/concat.txt"
 done
 

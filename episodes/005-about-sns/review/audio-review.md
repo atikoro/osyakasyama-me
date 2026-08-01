@@ -2,54 +2,50 @@
 
 ## 判定
 
-- **承認**
+- **承認・公開**
 - `changes_required: false`
-- 原稿の順序と意味を維持し、初期レビューで検出した発音・欠落・音声上の曖昧さを修正した。
-- 確定音声の全文レビューと独立モデルによる対象区間レビューで、公開を妨げる問題は残っていない。
+- `gpt-4o-mini-tts`の`marin`音声へ切り替えた。
+- 修正後音声の全文レビューと独立モデルによる照合で、公開を妨げる欠落や意味の変更は確認されなかった。
 
 ## 確定音声
 
+- モデル／音声: `gpt-4o-mini-tts` / `marin`
 - 配信用M4A: `audio/episode-005.m4a`
-- 再生時間: 560.600秒
+- 再生時間: 532.200秒
 - サンプルレート: 24000 Hz
 - チャンネル: 1
-- サイズ: 4862032 bytes
-- M4A SHA-256: `c29ed8a316169165cc0c812954c8fbd021757333421943746da45409dc2e421d`
-- ソースMP3 SHA-256: `3ba853dfab664b70c002d9ebaabe4d90f8650241fc4b413ef53457f940457fe4`
-- Integrated loudness: -17.16 LUFS
-- True peak: -1.70 dBTP
+- サイズ: 4574136 bytes
+- M4A SHA-256: `8534a460a5301a60cd9d6b36be4e0c508fe7e180c35b3275b6cb76df303e18bc`
+- ソースMP3 SHA-256: `a18026719f334f762cd3cd8918de240e0f22afd299a0481b21b4715aa44f372f`
+- Integrated loudness: -16.30 LUFS
+- True peak: -2.36 dBTP
 
-## 初期問題と修正
+## marin版での修正
 
-- 日付、Fediverse、SNS、括弧内説明、著者名と難読語を修正。
-- `pronunciations.yaml`を新設し、`tts-input.txt`と`pronunciations.md`を自動生成した。
-- 視覚的な括弧・記号は、意味と順序を変えず、耳で追える接続語・句読点へ展開した。
-- `script.md`を追加し、`narration.txt`と機械的に一致する状態にした。
+- 初回生成ではタイトル末尾の「社会」、`Misskey`、「でかくなる」が不明瞭だったため、`pronunciations.yaml`へ読みを追加した。
+- 長いTTS入力で終端が欠落したため、生成チャンクを600字へ短縮した。
+- 最後の「それでは、また次回。」は独立した短い入力で生成し、末尾へ連結した。
+- 正式音声、配信用M4A、メタデータをmarin版へ更新した。
 
 ## レビュー証跡
 
-- 初期全文: `gpt-4o-transcribe`、60秒、2秒重複、10チャンク
-- 独立初期全文: `gpt-4o-mini-transcribe`、60秒、2秒重複、10チャンク
-- 最終全文: `gpt-4o-transcribe`、60秒、2秒重複、10チャンク
-- 最終対象区間: `gpt-4o-mini-transcribe`、重要区間・冒頭・クレジット、2件
-- 第10話と第11話の重要技術語は`whisper-1`でも追加確認した。
-
-## 最終確認結果
-
-- 冒頭の日付、タイトル、話数を確認した。
-- 初期レビューで問題となった語句と音声向け修正区間を独立モデルで確認した。
-- 著者名、ライセンス、終端まで含むクレジットを確認した。
-- 同音語の漢字表記、英語／カタカナ、数字表記などのASR正規化差は音声欠陥として扱っていない。
-- 第10話の「ユビキタス言語」と第11話のコマンド名は、一音ずつまたは英字単位で説明し、前後の意味も音声内に保持した。
+- 発音修正前全文: `gpt-4o-transcribe`と`gpt-4o-mini-transcribe`、60秒、2秒重複、各9チャンク
+- 修正候補短区間: 上記2モデルでタイトル、`Misskey`、「でかくなる」を確認
+- 最終全文: `gpt-4o-transcribe`、60秒、2秒重複、9チャンク
+- 最終独立全文: `gpt-4o-mini-transcribe`、60秒、2秒重複、9チャンク
+- 最終独立全文で冒頭タイトル、本文順序、クレジット、終端「それでは、また次回。」を確認
+- 漢字・カナ・英字表記や固有語にASRモデル間の表記差はあるが、両モデルで一致する内容欠落はない。
 
 ## 再現コマンド
 
 ```sh
-TRANSCRIPTION_CHUNK_SECONDS=60 \
-TRANSCRIPTION_OVERLAP_SECONDS=2 \
-TRANSCRIPTION_LANGUAGE=ja \
-TRANSCRIPTION_PROMPT='日本語の一人語りのPodcastです。聞こえた内容を省略せず文字起こししてください。' \
-scripts/transcribe_episode_audio.sh \
+TTS_INSTRUCTIONS='落ち着いた日本語のポッドキャスト朗読として、自然で明瞭に、入力された全文を一語も省略せず読んでください。' \
+TTS_CHUNK_CHARS=600 \
+scripts/generate_openai_tts_long.sh \
+  episodes/005-about-sns/narration.txt \
   episodes/005-about-sns/audio/episode-005-source.mp3 \
-  episodes/005-about-sns/review/final
+  gpt-4o-mini-tts \
+  marin
 ```
+
+サイトとRSSの生成・配信はGitHub Actionsへ任せる。

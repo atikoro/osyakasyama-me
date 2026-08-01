@@ -25,18 +25,21 @@ fi
 payload=$(mktemp "${TMPDIR:-/tmp}/podcast-tts.XXXXXX")
 trap 'rm -f "$payload"' EXIT HUP INT TERM
 
-python3 - "$input" "$model" "$voice" > "$payload" <<'PY'
+python3 - "$input" "$model" "$voice" "${TTS_INSTRUCTIONS:-}" > "$payload" <<'PY'
 import json
 import sys
 from pathlib import Path
 
-input_path, model, voice = sys.argv[1:]
-print(json.dumps({
+input_path, model, voice, instructions = sys.argv[1:]
+request = {
     "model": model,
     "voice": voice,
     "input": Path(input_path).read_text(encoding="utf-8"),
     "response_format": "mp3",
-}, ensure_ascii=False))
+}
+if instructions:
+    request["instructions"] = instructions
+print(json.dumps(request, ensure_ascii=False))
 PY
 
 mkdir -p "$(dirname "$output")"

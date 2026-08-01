@@ -2,8 +2,8 @@ id: 005-about-sns
 episode: 5
 title: "上から来たものを下へ受け流すの社会"
 slug: about-sns
-status: audio_generated
-published_at: null
+status: published
+published_at: "2026-08-01T13:26:27+09:00"
 source:
   title: "上から来たものを下へ受け流すの社会"
   author: pleasure666
@@ -17,17 +17,17 @@ credits: >-
   画像、コード、外部リンクなど、音声化できない箇所のみ一部調整しています。
 audio:
   engine: openai
-  model: tts-1-hd
-  voice: coral
+  model: gpt-4o-mini-tts
+  voice: marin
   file: audio/episode-005.m4a
-  duration_seconds: 560.600
+  duration_seconds: 532.200
   sample_rate_hz: 24000
   channels: 1
-  bitrate_bps: 68614
-  size_bytes: 4862032
-  sha256: c29ed8a316169165cc0c812954c8fbd021757333421943746da45409dc2e421d
-  loudness_lufs: -17.16
-  true_peak_dbtp: -1.70
+  bitrate_bps: 67988
+  size_bytes: 4574136
+  sha256: 8534a460a5301a60cd9d6b36be4e0c508fe7e180c35b3275b6cb76df303e18bc
+  loudness_lufs: -16.30
+  true_peak_dbtp: -2.36
   mime_type: audio/mp4
   review:
     status: approved

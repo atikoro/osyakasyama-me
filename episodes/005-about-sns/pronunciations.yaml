@@ -36,3 +36,12 @@ entries:
 - surface: 開陳
   spoken: かいちん
   note: 誤読防止
+- surface: 上から来たものを下へ受け流すの社会
+  spoken: 上から来たものを、下へ受け流すの、しゃかい
+  note: 記事タイトル末尾の誤読防止
+- surface: ミスキー
+  spoken: ミス・キー
+  note: サービス名の誤読防止
+- surface: デカくなる
+  spoken: でかく、なる
+  note: 語の結合による誤読防止
